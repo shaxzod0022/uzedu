@@ -1,10 +1,11 @@
 import React from "react";
-import { Head } from "../components";
+import { Footer, Head } from "../components";
 
 const Home = () => {
   return (
     <div>
       <Head />
+      <Footer />
     </div>
   );
 };
