@@ -1,3 +1,32 @@
+// import { instagram, telegram, whatsapp, youtube } from "../assets/";
+// icons import 
+import { Phone, Mail, Facebook, Send, Instagram, Youtube, MessageSquare, Database, LocateFixed } from 'lucide-react';
+
+export const footerLinks = {
+  title: "Bog'lanish",
+  links: [
+    {
+      url: "",
+      // linkTitle: telegram,
+      title: "Telegram",
+    },
+    {
+      url: "",
+      // linkTitle: instagram,
+      title: "Instagram",
+    },
+    {
+      url: "",
+      // linkTitle: whatsapp,
+      title: "Whatsapp",
+    },
+    {
+      url: "",
+      // linkTitle: youtube,
+      title: "You Tube",
+    },
+  ],
+};
 
 export const navTopLinks = [
   {
@@ -299,3 +328,121 @@ export const headSlide = [
     number: 32414332,
   },
 ];
+
+// network list
+export const networkList = [
+  {
+    id: 1,
+    icon: <Phone />,
+    title: '(71) 202 09 09',
+    link: '#'
+  },
+  {
+    id: 2,
+    icon: <Mail />,
+    title: 'info@uzedu.uz',
+    link: '#'
+  },
+  {
+    id: 3,
+    icon: <Facebook />,
+    title: '@uzedu',
+    link: '#'
+  },
+  {
+    id: 4,
+    icon: <Send />,
+    title: '@uzedu',
+    link: '#'
+  },
+  {
+    id: 5,
+    icon: <Instagram />,
+    title: '/uzedu',
+    link: '#'
+  },
+  {
+    id: 6,
+    icon: <Youtube />,
+    title: '/uzedu',
+    link: '#'
+  },
+];
+
+// Legal list
+export const vebSiteLegal = [
+  {
+    id: 1,
+    title: 'Cookie siyosati',
+    link: '#',
+  },
+  {
+    id: 2,
+    title: 'Xavfsizlik siyosati',
+    link: '#',
+  },
+  {
+    id: 3,
+    title: 'Foydalanish shartlari',
+    link: '#',
+  },
+  {
+    id: 4,
+    title: "Veb-saytdan foydalanish bo'yicha qo'llanma",
+    link: '#',
+  },
+]
+
+export const hotlineRating = [
+  {
+    id: 1,
+    ball: '1 bal',
+    number: 0,
+    people: "foydalanuvchi"
+  },
+  {
+    id: 2,
+    ball: '2 bal',
+    number: 0,
+    people: "foydalanuvchi"
+  },
+  {
+    id: 3,
+    ball: '3 bal',
+    number: 0,
+    people: "foydalanuvchi"
+  },
+  {
+    id: 4,
+    ball: '4 bal',
+    number: 0,
+    people: "foydalanuvchi"
+  },
+  {
+    id: 5,
+    ball: '5 bal',
+    number: 0,
+    people: "foydalanuvchi"
+  },
+]
+
+export const footerContentLinks = [
+  {
+    id: 1,
+    icon: <MessageSquare />,
+    title: 'Fuqarolarning murojaatlari',
+    link: '#',
+  },
+  {
+    id: 2,
+    icon: <Database />,
+    title: "Ochiq ma'lumotlar",
+    link: '#',
+  },
+  {
+    id: 3,
+    icon: <LocateFixed />,
+    title: 'Sayt xaritasi',
+    link: '#',
+  },
+]

@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
       },
+      screens: {
+        '2xl-mid': { 'min': '1600px', 'max': '1900px' },
+      }
     },
   },
   plugins: [],

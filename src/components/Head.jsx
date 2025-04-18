@@ -24,7 +24,7 @@ const Head = () => {
 
   const extendedSlides = [...headSlide, ...headSlide];
   return (
-    <div className="bg__image relative pb-32">
+    <div className="relative pb-32 bg__image">
       <Navbar />
       <div
         className={`flex xl:justify-between xl:flex-row flex-col items-center max-w-[1640px] mx-auto px-8 xl:my-10 sm:px-10 lg:px-24 xxl:w-full sm:w-[80%] w-full`}
@@ -51,9 +51,9 @@ const Head = () => {
         </div>
       </div>
       <div className="max-w-[650px] xl:w-full w-[80%] overflow-hidden mx-auto btn__aft mt-10">
-        <div className="w-full relative">
+        <div className="relative w-full">
           <ul
-            className="flex transition-transform duration-700 ease-in-out gap-4"
+            className="flex gap-4 transition-transform duration-700 ease-in-out"
             style={{
               transform: `translateX(-${currentIndex * (cardWidth + 16)}px)`,
               width: `${extendedSlides.length * (cardWidth + 16)}px`,
@@ -64,14 +64,14 @@ const Head = () => {
                 key={idx}
                 className={`${styles.fCol} !z-30 items-center justify-center w-[200px] gap-2 text-white md:border-r border-white h-40 flex-shrink-0`}
               >
-                <span className="font-extrabold text-2xl">{slid.number}</span>
+                <span className="text-2xl font-extrabold">{slid.number}</span>
                 <span className="text-lg text-center">{slid.title}</span>
               </li>
             ))}
           </ul>
           <button
             onClick={handleNext}
-            className="px-4 rounded-full absolute top-1/2 -translate-y-1/2 -right-6 py-1 text-white"
+            className="absolute px-4 py-1 text-white -translate-y-1/2 rounded-full top-1/2 -right-6"
           >
             <ChevronRight />
           </button>
