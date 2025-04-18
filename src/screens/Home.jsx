@@ -1,6 +1,11 @@
 import React from "react";
-import { Content, FirstCards, Footer, Head } from "../components";
-import SocialNetworksBar from "../components/SocialNetworksBar";
+import {
+  Content,
+  FirstCards,
+  Footer,
+  Head,
+  SocialNetworksBar,
+} from "../components";
 
 const Home = () => {
   return (
