@@ -1,17 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-import { Content, FirstCards, Footer, Head } from "../components";
-import SocialNetworksBar from "../components/SocialNetworksBar";
-import EducationSuggestions from "../components/EducationSuggestions";
-=======
-import {
-  Content,
-  FirstCards,
-  Footer,
-  Head,
-  SocialNetworksBar,
-} from "../components";
->>>>>>> 00bd80e213d7aa6f0304acee278e2411041512ef
+import { Content, FirstCards, Footer, Head, SocialNetworksBar, EducationSuggestions } from "../components";
 
 const Home = () => {
   return (

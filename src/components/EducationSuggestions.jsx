@@ -108,4 +108,4 @@ function EducationSuggestions() {
     )
 }
 
-export default EducationSuggestions;
+export default EducationSuggestions

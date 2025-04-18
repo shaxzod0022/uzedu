@@ -402,16 +402,6 @@ export const vebSiteLegal = [
     link: 'https://uzedu.uz/uz/page/terms',
   },
   {
-    id: 2,
-    title: "Xavfsizlik siyosati",
-    link: "#",
-  },
-  {
-    id: 3,
-    title: "Foydalanish shartlari",
-    link: "#",
-  },
-  {
     id: 4,
     title: "Veb-saytdan foydalanish bo'yicha qo'llanma",
     link: "/uz/download/file?guid=b48aa9f7-ca92-c524-de6e-ed669577ea3f",

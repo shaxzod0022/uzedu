@@ -6,3 +6,4 @@ export { default as Head } from "./Head";
 export { default as Content } from "./Content";
 export { default as FirstCards } from "./FirstCards";
 export { default as SocialNetworksBar } from "./SocialNetworksBar";
+export { default as EducationSuggestions } from './EducationSuggestions'
