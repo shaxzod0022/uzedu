@@ -77,17 +77,6 @@ html {
 }
 
 /* footer  */
-.footer__top__image__bft::before {
-  content: '';
-  position: absolute;
-  background: url('./assets/bookLogo.svg') no-repeat;
-  width: 600px;
-  height: 600px;
-  z-index: -1;
-  bottom: -498px;
-  left: 745px;
-}
-
 .footer__bft::before {
   content: '';
   position: absolute;
@@ -100,17 +89,6 @@ html {
 }
 
 /* footer backgroung image */
-.footer__image__bft::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -350px;
-  width: 2942px;
-  height: 1105px;
-  background: url('./assets/bottomBg.svg') no-repeat right center;
-  background-size: contain;
-  z-index: -1;
-}
 
 .legal-link {
   position: relative;
@@ -134,15 +112,4 @@ html {
   top: 0;
   height: 100%;
   border-right: 1px solid #395499;
-}
-
-.footer__bottom__image_aft::after {
-  content: '';
-  position: absolute;
-  background: url('./assets/largeLogo.svg');
-  width: 540px;
-  height: 658px;
-  right: -550px;
-  top: 600px;
-  z-index: 0;
 }

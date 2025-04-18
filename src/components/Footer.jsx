@@ -15,9 +15,9 @@ function Footer() {
     <>
       <div className='relative 2xl-mid:max-w-full footer__top__image__bft -z-10'></div>
       <footer
-        className='min-h-[600px] h-full relative overflow-hidden pb-[30px] text-white footer__bft'
+        className='min-h-[600px] h-full relative overflow-hidden pb-[30px] text-white footer__bft flex flex-col items-center justify-center bg-myGreen'
       >
-        <div className='relative flex items-center md:items-start pt-[188px] z-10 footer__image__bft'>
+        <div className='relative flex items-center md:items-start pt-[188px] z-10 '>
           <div className='w-[418px] pr-[100px] ml-[125px] mr-16 md:border-r md:border-r-white '>
             <img
               src={logoSecondary}
