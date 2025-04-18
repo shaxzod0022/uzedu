@@ -51,7 +51,7 @@ function Footer() {
 
   return (
     <footer className="min-h-[600px] h-full relative overflow-hidden pb-[30px] text-white">
-      <div className="relative flex pt-[188px] bg-myPurple z-10">
+      <div className="relative flex pt-[188px] bg-myGreen z-10">
         <div className="w-[418px] pr-[100px] ml-[125px] border-r border-r-white">
           <img src={logoSecondary} alt="logo" className="w-full mb-7" />
           <h1 className="text-xl font-bold mb-9">
