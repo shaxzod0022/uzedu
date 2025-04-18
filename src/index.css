@@ -13,8 +13,8 @@ html {
 .bg__image {
   background-image: linear-gradient(
       to right,
-      rgb(76, 64, 131, 0.7),
-      rgb(76, 64, 131, 0.7)
+      rgba(10, 131, 48, 0.7),
+      rgb(10, 131, 48, 0.7)
     ),
     url("./assets/newBackground.webp");
   background-repeat: no-repeat;
