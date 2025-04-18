@@ -27,7 +27,6 @@ const Content = () => {
         <div>
           <p className="font-bold text-xl">Ishonch telefoni</p>
           <p className="mb-2 text-lg">(71) 202 09 09</p>
-          <Button title={"Baholash"} className={"!py-1 !px-5 !font-normal"} />
         </div>
         <Headset size={55} className="text-myGreen" />
       </div>
