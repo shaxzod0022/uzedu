@@ -1,6 +1,20 @@
 // import { instagram, telegram, whatsapp, youtube } from "../assets/";
-// icons import 
-import { Phone, Mail, Facebook, Send, Instagram, Youtube, MessageSquare, Database, LocateFixed } from 'lucide-react';
+// icons import
+import {
+  Phone,
+  Mail,
+  Facebook,
+  Send,
+  Instagram,
+  Youtube,
+  MessageSquare,
+  Database,
+  LocateFixed,
+} from "lucide-react";
+import student from "../assets/student.jpg";
+import femily from "../assets/family.jpg";
+import teacher from "../assets/teacher.jpg";
+import school from "../assets/school.jpg";
 
 export const footerLinks = {
   title: "Bog'lanish",
@@ -330,7 +344,6 @@ export const headSlide = [
   },
 ];
 
-
 // network list
 export const networkList = [
   {
@@ -342,32 +355,32 @@ export const networkList = [
   {
     id: 2,
     icon: <Mail />,
-    title: 'info@uzedu.uz',
-    link: 'mailto:info@xtv.uz'
+    title: "info@uzedu.uz",
+    link: "mailto:info@xtv.uz",
   },
   {
     id: 3,
     icon: <Facebook />,
-    title: '@uzedu',
-    link: 'https://www.facebook.com/uzedu'
+    title: "@uzedu",
+    link: "https://www.facebook.com/uzedu",
   },
   {
     id: 4,
     icon: <Send />,
-    title: '@uzedu',
-    link: 'https://t.me/uzedu'
+    title: "@uzedu",
+    link: "https://t.me/uzedu",
   },
   {
     id: 5,
     icon: <Instagram />,
-    title: '/uzedu',
-    link: 'https://www.instagram.com/uzedu.uz/'
+    title: "/uzedu",
+    link: "https://www.instagram.com/uzedu.uz/",
   },
   {
     id: 6,
     icon: <Youtube />,
-    title: '/uzedu',
-    link: 'https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg'
+    title: "/uzedu",
+    link: "https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg",
   },
 ];
 
@@ -389,44 +402,54 @@ export const vebSiteLegal = [
     link: 'https://uzedu.uz/uz/page/terms',
   },
   {
+    id: 2,
+    title: "Xavfsizlik siyosati",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Foydalanish shartlari",
+    link: "#",
+  },
+  {
     id: 4,
     title: "Veb-saytdan foydalanish bo'yicha qo'llanma",
     link: "/uz/download/file?guid=b48aa9f7-ca92-c524-de6e-ed669577ea3f",
   },
-]
+];
 
 export const hotlineRating = [
   {
     id: 1,
-    ball: '1 bal',
+    ball: "1 bal",
     number: 0,
-    people: "foydalanuvchi"
+    people: "foydalanuvchi",
   },
   {
     id: 2,
-    ball: '2 bal',
+    ball: "2 bal",
     number: 0,
-    people: "foydalanuvchi"
+    people: "foydalanuvchi",
   },
   {
     id: 3,
-    ball: '3 bal',
+    ball: "3 bal",
     number: 0,
-    people: "foydalanuvchi"
+    people: "foydalanuvchi",
   },
   {
     id: 4,
-    ball: '4 bal',
+    ball: "4 bal",
     number: 0,
-    people: "foydalanuvchi"
+    people: "foydalanuvchi",
   },
   {
     id: 5,
-    ball: '5 bal',
+    ball: "5 bal",
     number: 0,
-    people: "foydalanuvchi"
+    people: "foydalanuvchi",
   },
-]
+];
 
 export const footerContentLinks = [
   {
@@ -601,3 +624,33 @@ export const regions = [
   },
 
 ]
+
+export const firstCard = [
+  {
+    img: student,
+    title: "O'quvchilarga",
+    description: "Darsliklar, Smartland, Videodarslik, To'garaklar",
+    url: "https://uzedu.uz/uz/services/index/1",
+  },
+  {
+    img: femily,
+    title: "Ota-onalarga",
+    description:
+      "Umumiy o‘rta ta’lim muassasalarining ichki tartib va odob-axloq qoidalari, Uyda yakka tartibda taʼlim olish, Voyaga yetmagan bolalarni farzandlikka olish, Ixtisoslashgan maktablar",
+    url: "https://uzedu.uz/uz/services/index/2",
+  },
+  {
+    img: teacher,
+    title: "O'qituvchilarga",
+    description:
+      "Vakant lavozimlar, Malaka oshirish, Videodarslik, O'qituvchi yuritadigan hujjatlar",
+    url: "https://uzedu.uz/uz/services/index/3",
+  },
+  {
+    img: school,
+    title: "Maktablarga",
+    description:
+      "Xalqaro tan olingan va milliy baholash tizimida berilgan sertifikatlar (ularning kombinasiyasi) ro'yxati hamda har oylik ustama olish uchun ularning eng kam onlinedu.uz, Ta'lim to'g'risidagi Qonun, Davlat ta'lim standartlari",
+    url: "https://uzedu.uz/uz/services/index/4",
+  },
+];
