@@ -12,7 +12,7 @@ const Navbar = () => {
       className={`max-w-[1640px] mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween}`}
     >
       <button
-        className={`border xl:hidden block p-4 transition-all duration-200 text-white hover:bg-yellow-300 hover:text-myPurple`}
+        className={`border xl:hidden block p-4 transition-all duration-200 text-white hover:bg-yellow-300 hover:text-myGreen`}
       >
         <Menu />
       </button>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <ul
                   className={`border ${
                     hover === link.id ? "block" : "hidden"
-                  } border-yellow-300 w-[170px] top-6 -left-6 bg-myPurple absolute px-3`}
+                  } border-yellow-300 w-[170px] top-6 -left-6 bg-myGreen absolute px-3`}
                 >
                   {link.links.map((link2, idx2) => (
                     <li
@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
         <button
           onClick={() => setLang((i) => (i === "o'z" ? "ru" : "o'z"))}
-          className={`border transition-all duration-200 p-4 text-white hover:bg-yellow-300 hover:text-myPurple font-semibold uppercase`}
+          className={`border transition-all duration-200 p-4 text-white hover:bg-yellow-300 hover:text-myGreen font-semibold uppercase`}
         >
           {lang}
         </button>

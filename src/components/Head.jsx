@@ -29,7 +29,7 @@ const Head = () => {
       <div
         className={`flex xl:justify-between xl:flex-row flex-col items-center max-w-[1640px] mx-auto px-8 xl:my-10 sm:px-10 lg:px-24 xxl:w-full sm:w-[80%] w-full`}
       >
-        <div className="xl:backdrop-blur-sm xl:bg-myPurple/30 xl:py-[70px] xl:px-[50px] xl:w-[40%] w-32 xl:border xl:border-white xl:mr-32 bef__aft z-40">
+        <div className="xl:backdrop-blur-sm xl:bg-myGreen/30 xl:py-[70px] xl:px-[50px] xl:w-[40%] w-32 xl:border xl:border-white xl:mr-32 bef__aft z-40">
           <img src={logoWhite} className="w-full" alt="" />
         </div>
         <div>
