@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import miniBanner from "../assets/miniBanner1.png";
 import { styles } from "../util/styles";
+import { firstCard } from "../util/constants";
+import Button from "./Button";
 const FirstCards = () => {
+  const [hover, setHover] = useState(null);
   return (
     <div className="p-5">
       <div
@@ -20,6 +23,33 @@ const FirstCards = () => {
           RO'YXATDAN <br /> O'TISH
         </a>
       </div>
+      <ul className={`${styles.fArround} gap-8 w-full`}>
+        {firstCard.map((item, idx) => (
+          <li
+            key={idx}
+            className={`w-full h-[560px] sm:w-[45%] md:w-[30%] xl:w-[24%]`}
+          >
+            <a
+              href={item.url}
+              onMouseOver={() => setHover(item.url)}
+              onMouseOut={() => setHover(null)}
+              className={`${styles.fCol} w-full h-full items-center justify-between text-center bg-white rounded-3xl shadow-2xl xl:p-20 p `}
+            >
+              <div className={`${styles.fCol} items-center gap-2`}>
+                <img src={item.img} alt="" />
+                <h3>{item.title}</h3>
+                <p>{item.description.split(",")}</p>
+              </div>
+              <Button
+                title={"Batafsil"}
+                className={`w-full ${
+                  hover === item.url && "bg-yellow-300 !text-myGreen"
+                }`}
+              />
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
