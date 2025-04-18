@@ -25,12 +25,12 @@ const FirstCards = () => {
         </a>
       </div>
       <ul
-        className={`${styles.fArround} gap-4 w-full max-w-[1640px] mx-auto px-4 lg:py-0 p-16 sm:px-6 lg:px-36 `}
+        className={`${styles.fArround} md:gap-4 gap-6 w-full max-w-[1640px] mx-auto px-4 lg:py-0 p-16 sm:px-6 lg:px-36 xl:px-14 `}
       >
         {firstCard.map((item, idx) => (
           <li
             key={idx}
-            className={`w-full h-fit  sm:w-[45%] sm:h-[430px] md:h-[480px] xl:w-full max-w-[350px]`}
+            className={`w-full h-fit sm:w-[45%] sm:h-[430px] md:h-[480px] xl:w-full max-w-[350px]`}
           >
             <a
               href={item.url}
@@ -45,7 +45,7 @@ const FirstCards = () => {
               </div>
               <Button
                 title={"Batafsil"}
-                className={`w-full ${
+                className={`w-full uppercase ${
                   hover === item.url && "bg-yellow-300 !text-myGreen"
                 }`}
               />
