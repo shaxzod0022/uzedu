@@ -1,30 +1,3 @@
-import { instagram, telegram, whatsapp, youtube } from "../assets";
-
-export const footerLinks = {
-  title: "Bog'lanish",
-  links: [
-    {
-      url: "",
-      linkTitle: telegram,
-      title: "Telegram",
-    },
-    {
-      url: "",
-      linkTitle: instagram,
-      title: "Instagram",
-    },
-    {
-      url: "",
-      linkTitle: whatsapp,
-      title: "Whatsapp",
-    },
-    {
-      url: "",
-      linkTitle: youtube,
-      title: "You Tube",
-    },
-  ],
-};
 
 export const navTopLinks = [
   {
