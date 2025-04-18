@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // logo
@@ -6,8 +6,10 @@ import logoSecondary from "../assets/logoSecondary.svg";
 import logoSecondaryDark from "../assets/logoSecondaryDark.svg";
 
 import { networkList, vebSiteLegal, hotlineRating, footerContentLinks } from '../util/constants'
+import TotalStatistics from "./TotalStatistics";
 
 function Footer() {
+  const [isStatistics, setIsStatistics] = useState(false)
 
   return (
     <>
@@ -15,8 +17,8 @@ function Footer() {
       <footer
         className='min-h-[600px] h-full relative overflow-hidden pb-[30px] text-white footer__bft'
       >
-        <div className='relative flex pt-[188px] z-10 footer__image__bft'>
-          <div className='w-[418px] pr-[100px] ml-[125px] mr-16 border-r border-r-white '>
+        <div className='relative flex items-center md:items-start pt-[188px] z-10 footer__image__bft'>
+          <div className='w-[418px] pr-[100px] ml-[125px] mr-16 md:border-r md:border-r-white '>
             <img
               src={logoSecondary}
               alt="logo"
@@ -34,7 +36,7 @@ function Footer() {
                     <li key={item.id}>
                       <Link
                         to={item.link}
-                        className='flex items-center gap-5 py-4 text-3xl hover:text-[#f0f220]'
+                        className='flex items-center gap-5 py-4 text-3xl hover:text-primary'
                       >
                         {item.icon}
                         <span className='text-lg'>{item.title}</span>
@@ -46,7 +48,7 @@ function Footer() {
             </div>
           </div>
           <div
-            className='w-[324px] py-52 px-10 max-xl:pl-0'
+            className='hidden md:block w-[324px] py-52 px-10 max-xl:pl-0'
           >
             <ul className='relative footer-ul__aft'>
               {
@@ -54,7 +56,7 @@ function Footer() {
                   <li key={item.id}>
                     <Link
                       to={item.link}
-                      className='py-4 font-bold hover:text-[#f0f220] legal-link'
+                      className='py-4 font-bold hover:text-primary legal-link'
                     >
                       {
                         item.title
@@ -99,20 +101,21 @@ function Footer() {
                 <button
                   type='button'
                   className='p-1 m-4 text-base cursor-pointer rounded-md bg-[#007bff] text-white hover:bg-[#0062cc] hover:text-[#4c4083] duration-200 transition-all'
+                  onClick={() => setIsStatistics(true)}
                 >
                   Batafsil
                 </button>
               </div>
             </ul>
           </div>
-          <div className='w-[324px] py-52 px-10 max-xl:pl-0 relative footer__bottom__image_aft'>
+          <div className='hidden lg:block w-[324px] py-52 px-10 max-xl:pl-0 relative footer__bottom__image_aft'>
             <ul className='relative'>
               {
                 footerContentLinks.map(item => (
                   <li key={item.id}>
                     <Link
                       to={item.link}
-                      className='relative flex items-center gap-3 py-4 text-xl font-bold hover:text-[#f0f220]'
+                      className='relative flex items-center gap-3 py-4 text-xl font-bold hover:text-primary'
                     >
                       {item.icon}
                       <span>
@@ -125,7 +128,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="relative z-20 pt-12 lg:max-w-[960px] mx-auto">
+        <div className="relative z-20 pt-12 max-lg:max-w-[960px] ml-24 mx-auto">
           <a
             href="https://creativecommons.org/licenses/by/4.0/"
             target="_blank"
@@ -145,12 +148,15 @@ function Footer() {
             to="https://creativecommons.org/licenses/by/4.0/"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-1 transition-colors hover:text-yellow-300"
+            className="ml-1 transition-colors hover:text-primary"
           >
             Creative Commons Attribution 4.0 International
           </Link>
         </div>
       </footer>
+      {
+        isStatistics ? <TotalStatistics setIsStatistics={setIsStatistics} /> : ''
+      }
     </>
   )
 }

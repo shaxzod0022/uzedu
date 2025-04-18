@@ -14,7 +14,7 @@ function SocialNetworksBar() {
                     >
                         <Link
                             to={item.link}
-                            className={`text-[#f0f220] bg-myGreen opacity-80 py-2.5 pr-4 pl-1.5 absolute flex items-center transition-all duration-200 ease-linear hover:text-myGreen hover:bg-[#f0f220] 
+                            className={`text-primary bg-myGreen opacity-80 py-2.5 pr-4 pl-1.5 absolute flex items-center transition-all duration-200 ease-linear hover:text-myGreen hover:bg-primary hover:opacity-100 
                             ${index === 0 ? 'rounded-tr-lg' : ''}
                             ${index === 4 ? 'rounded-br-lg' : ''}
                                 `}

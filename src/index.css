@@ -62,8 +62,21 @@ html {
   background-size: cover;
 }
 
-/* footer  */
+/* Education Suggestions section */
+.educationTitle__aft::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 15px;
+  width: 230px;
+  background-color: #f7f889;
+  border-radius: 10px;
+  z-index: -1;
+}
 
+/* footer  */
 .footer__top__image__bft::before {
   content: '';
   position: absolute;
