@@ -6,7 +6,7 @@ import { styles } from "../util/styles";
 const Content = () => {
   return (
     <div
-      className={`max-w-[1640px] mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween} sm:flex-row flex-col gap-4`}
+      className={`max-w-[1640px] mx-auto p-4 sm:px-6 xl:py-16 py-8 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween} sm:flex-row flex-col gap-4`}
     >
       <img
         src={logo}

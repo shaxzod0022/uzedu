@@ -13,6 +13,6 @@ export const styles = {
   fWrap: "flex flex-wrap items-center",
   fArround: "flex justify-around items-center flex-wrap",
   button:
-    "bg-myGreen py-2 px-6 text-white rounded-lg font-semibold font-figtree tracking-wide hover:bg-yellow-300 hover:text-myGreen sm:text-[16px] text-[14px]",
+    "bg-myGreen py-2 px-6 text-white rounded-lg font-semibold font-figtree tracking-wide hover:bg-yellow-300 hover:text-myGreen sm:text-[16px] text-[14px] transition-all duration-200",
   link: "text-white text-[18px] hover:text-slate-400 cursor-pointer",
 };

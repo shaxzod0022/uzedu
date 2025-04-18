@@ -1,5 +1,5 @@
 import React from "react";
-import { Content, Footer, Head } from "../components";
+import { Content, FirstCards, Footer, Head } from "../components";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <Head />
       <div className="bg_shape1">
         <Content />
+        <FirstCards />
       </div>
       <Footer />
     </div>
