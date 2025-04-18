@@ -3,3 +3,4 @@ export { default as Button } from "./Button";
 export { default as Footer } from "./Footer";
 export { default as ScrollToTop } from "./ScrollToTop";
 export { default as Head } from "./Head";
+export { default as Content } from "./Content";
