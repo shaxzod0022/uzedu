@@ -50,7 +50,7 @@ const Head = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[650px] w-full  overflow-hidden mx-auto btn__aft">
+      <div className="max-w-[650px] xl:w-full w-[80%] overflow-hidden mx-auto btn__aft mt-10">
         <div className="w-full relative">
           <ul
             className="flex transition-transform duration-700 ease-in-out gap-4"
@@ -62,7 +62,7 @@ const Head = () => {
             {extendedSlides.map((slid, idx) => (
               <li
                 key={idx}
-                className={`${styles.fCol} !z-30 items-center justify-center w-[200px] gap-2 text-white border-r border-white h-40 flex-shrink-0`}
+                className={`${styles.fCol} !z-30 items-center justify-center w-[200px] gap-2 text-white md:border-r border-white h-40 flex-shrink-0`}
               >
                 <span className="font-extrabold text-2xl">{slid.number}</span>
                 <span className="text-lg text-center">{slid.title}</span>
