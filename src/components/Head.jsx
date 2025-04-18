@@ -24,12 +24,12 @@ const Head = () => {
 
   const extendedSlides = [...headSlide, ...headSlide];
   return (
-    <div className="bg__image relative">
+    <div className="bg__image relative pb-32">
       <Navbar />
       <div
         className={`flex xl:justify-between xl:flex-row flex-col items-center max-w-[1640px] mx-auto px-8 xl:my-10 sm:px-10 lg:px-24 xxl:w-full sm:w-[80%] w-full`}
       >
-        <div className="xl:backdrop-blur-sm xl:bg-myPurple/30 xl:py-[70px] xl:px-[50px] xl:w-[40%] w-32 xl:border xl:border-white xl:mr-32 bef__aft z-40">
+        <div className="xl:backdrop-blur-sm xl:bg-myGreen/30 xl:py-[70px] xl:px-[50px] xl:w-[40%] w-32 xl:border xl:border-white xl:mr-32 bef__aft z-40">
           <img src={logoWhite} className="w-full" alt="" />
         </div>
         <div>
@@ -50,7 +50,7 @@ const Head = () => {
           </div>
         </div>
       </div>
-      <div className="w-[650px] overflow-hidden mx-auto btn__aft">
+      <div className="max-w-[650px] xl:w-full w-[80%] overflow-hidden mx-auto btn__aft mt-10">
         <div className="w-full relative">
           <ul
             className="flex transition-transform duration-700 ease-in-out gap-4"
@@ -62,7 +62,7 @@ const Head = () => {
             {extendedSlides.map((slid, idx) => (
               <li
                 key={idx}
-                className={`${styles.fCol} !z-30 items-center justify-center w-[200px] gap-2 text-white border-r border-white h-40 flex-shrink-0`}
+                className={`${styles.fCol} !z-30 items-center justify-center w-[200px] gap-2 text-white md:border-r border-white h-40 flex-shrink-0`}
               >
                 <span className="font-extrabold text-2xl">{slid.number}</span>
                 <span className="text-lg text-center">{slid.title}</span>
@@ -78,7 +78,7 @@ const Head = () => {
         </div>
       </div>
       <img
-        className="absolute bottom-0 z-0 left-64"
+        className="absolute bottom-0 z-0 xl:left-[25%]"
         src={bottomWhiteImg}
         alt=""
       />

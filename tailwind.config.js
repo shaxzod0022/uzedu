@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        myPurple: "#4c4083",
+        myGreen: "#0a8330",
       },
 
       fontFamily: {
