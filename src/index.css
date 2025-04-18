@@ -11,9 +11,11 @@ html {
 }
 
 .bg__image {
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(10, 131, 48, 0.7),
-      rgb(10, 131, 48, 0.7)),
+      rgb(10, 131, 48, 0.7)
+    ),
     url("./assets/newBackground.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,6 +46,12 @@ html {
   border-left: 2px solid white;
 }
 
+@media (max-width: 1200px) {
+  .bef__aft::after {
+    display: none;
+  }
+}
+
 .btn__aft::after {
   content: " ";
   position: absolute;
@@ -60,25 +68,23 @@ html {
   background-image: url("./assets/shapes1.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-/* Education Suggestions section */
-.educationTitle__aft::after {
-  content: '';
+/* footer  */
+
+.footer__top__image__bft::before {
+  content: "";
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 15px;
-  width: 230px;
-  background-color: #f7f889;
-  border-radius: 10px;
+  background: url("./assets/bookLogo.svg") no-repeat;
+  width: 600px;
+  height: 600px;
   z-index: -1;
 }
 
 /* footer  */
 .footer__bft::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 820px;
   left: 0;
@@ -89,6 +95,17 @@ html {
 }
 
 /* footer backgroung image */
+.footer__image__bft::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -350px;
+  width: 2942px;
+  height: 1105px;
+  background: url("./assets/bottomBg.svg") no-repeat right center;
+  background-size: contain;
+  z-index: -1;
+}
 
 .legal-link {
   position: relative;
@@ -96,7 +113,7 @@ html {
 }
 
 .legal-link::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 60px;
@@ -106,10 +123,21 @@ html {
 }
 
 .footer-ul__aft::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
   border-right: 1px solid #395499;
+}
+
+.footer__bottom__image_aft::after {
+  content: "";
+  position: absolute;
+  background: url("./assets/largeLogo.svg");
+  width: 540px;
+  height: 658px;
+  right: -550px;
+  top: 600px;
+  z-index: 0;
 }
