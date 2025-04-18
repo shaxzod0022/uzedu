@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Figtree;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.bg__image {
+  background-image: linear-gradient(
+      to right,
+      rgb(76, 64, 131, 0.7),
+      rgb(76, 64, 131, 0.7)
+    ),
+    url("./assets/newBackground.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg__image::before {
+  content: "";
+  position: absolute;
+  width: 700px;
+  height: 350px;
+  background: #e3da5c;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  bottom: 0;
+  left: -400px;
+  z-index: 0;
+}
+
+.bef__aft::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  bottom: -40%;
+  display: flex;
+  width: 50px;
+  height: 150px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.btn__aft::after {
+  content: " ";
+  position: absolute;
+  right: 25%;
+  bottom: 5%;
+  display: flex;
+  width: 50px;
+  height: 100px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
