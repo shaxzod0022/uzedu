@@ -14,9 +14,9 @@ import {
 function Footer() {
   return (
     <>
-      <div className="relative 2xl-mid:max-w-full footer__top__image__bft -z-10"></div>
-      <footer className="min-h-[600px] h-full relative overflow-hidden pb-[30px] text-white footer__bft">
-        <div className="relative flex pt-[188px] mx-auto z-10 footer__image__bft">
+      <div className="relative 2xl-mid:max-w-full"></div>
+      <footer className="min-h-[600px] h-full relative overflow-hidden pb-[30px] flex flex-col items-center justify-center text-white bg-myGreen footer__bft">
+        <div className="relative flex pt-[188px] mx-auto z-10">
           <div className="w-[418px] pr-[100px] ml-[125px] mr-16 border-r border-r-white ">
             <img src={logoSecondary} alt="logo" className="w-full mb-7" />
             <h1 className="text-xl font-bold mb-9">
@@ -87,7 +87,7 @@ function Footer() {
               </div>
             </ul>
           </div>
-          <div className="w-[324px] py-52 px-10 max-xl:pl-0 relative footer__bottom__image_aft">
+          <div className="w-[324px] py-52 px-10 max-xl:pl-0 relative ">
             <ul className="relative">
               {footerContentLinks.map((item) => (
                 <li key={item.id}>
