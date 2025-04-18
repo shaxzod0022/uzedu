@@ -125,7 +125,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="pt-12">
+        <div className="relative z-20 pt-12 lg:max-w-[960px] mx-auto">
           <a
             href="https://creativecommons.org/licenses/by/4.0/"
             target="_blank"
@@ -141,14 +141,14 @@ function Footer() {
           <span>
             Saytdagi barcha materiallardan quyidagi lisenziya bo‘yicha foydalanish mumkin:
           </span>
-          <a
-            href="https://creativecommons.org/licenses/by/4.0/"
+          <Link
+            to="https://creativecommons.org/licenses/by/4.0/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline transition-colors hover:text-yellow-300"
+            className="ml-1 transition-colors hover:text-yellow-300"
           >
             Creative Commons Attribution 4.0 International
-          </a>
+          </Link>
         </div>
       </footer>
     </>

@@ -60,6 +60,7 @@ export const navTopLinks = [
     url: "",
   },
 ];
+
 export const navBottomLinks = [
   {
     id: 1,
@@ -329,6 +330,7 @@ export const headSlide = [
   },
 ];
 
+
 // network list
 export const networkList = [
   {
@@ -341,31 +343,31 @@ export const networkList = [
     id: 2,
     icon: <Mail />,
     title: 'info@uzedu.uz',
-    link: '#'
+    link: 'mailto:info@xtv.uz'
   },
   {
     id: 3,
     icon: <Facebook />,
     title: '@uzedu',
-    link: '#'
+    link: 'https://www.facebook.com/uzedu'
   },
   {
     id: 4,
     icon: <Send />,
     title: '@uzedu',
-    link: '#'
+    link: 'https://t.me/uzedu'
   },
   {
     id: 5,
     icon: <Instagram />,
     title: '/uzedu',
-    link: '#'
+    link: 'https://www.instagram.com/uzedu.uz/'
   },
   {
     id: 6,
     icon: <Youtube />,
     title: '/uzedu',
-    link: '#'
+    link: 'https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg'
   },
 ];
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Content, FirstCards, Footer, Head } from "../components";
+import SocialNetworksBar from "../components/SocialNetworksBar";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <FirstCards />
       </div>
       <Footer />
+      <SocialNetworksBar />
     </div>
   );
 };
