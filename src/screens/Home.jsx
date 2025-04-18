@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <div>
       <Head />
-      <Content />
+      <div className="bg_shape1">
+        <Content />
+      </div>
       <Footer />
     </div>
   );

@@ -57,3 +57,9 @@ html {
   border-top: 2px solid white;
   border-right: 2px solid white;
 }
+
+.bg_shape1 {
+  background-image: url("./assets/shapes1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
