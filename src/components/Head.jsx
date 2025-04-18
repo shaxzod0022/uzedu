@@ -24,7 +24,7 @@ const Head = () => {
 
   const extendedSlides = [...headSlide, ...headSlide];
   return (
-    <div className="bg__image relative">
+    <div className="bg__image relative pb-32">
       <Navbar />
       <div
         className={`flex xl:justify-between xl:flex-row flex-col items-center max-w-[1640px] mx-auto px-8 xl:my-10 sm:px-10 lg:px-24 xxl:w-full sm:w-[80%] w-full`}
@@ -50,7 +50,7 @@ const Head = () => {
           </div>
         </div>
       </div>
-      <div className="w-[650px] overflow-hidden mx-auto btn__aft">
+      <div className="max-w-[650px] w-full  overflow-hidden mx-auto btn__aft">
         <div className="w-full relative">
           <ul
             className="flex transition-transform duration-700 ease-in-out gap-4"
@@ -78,7 +78,7 @@ const Head = () => {
         </div>
       </div>
       <img
-        className="absolute bottom-0 z-0 left-64"
+        className="absolute bottom-0 z-0 xl:left-[25%]"
         src={bottomWhiteImg}
         alt=""
       />
