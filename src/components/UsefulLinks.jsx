@@ -16,7 +16,7 @@ function UsefulLinks() {
             <h1 className="text-3xl md:text-4xl font-bold text-myGreen text-center mb-8 relative z-10 Title__aft">
                 Foydali havolalar
             </h1>
-            <div className='my-12 px-24 w-full relative'>
+            <div className='my-12 lg:px-24 w-full'>
                 <Swiper
                     modules={[Navigation, Autoplay]}
                     autoplay={{ delay: 3000 }}
@@ -34,7 +34,7 @@ function UsefulLinks() {
                             return (
                                 <SwiperSlide
                                     key={item.id}
-                                    className='w-[146px] relative'
+                                    className='w-[146px]'
                                 >
                                     <a
                                         href={item.link}
