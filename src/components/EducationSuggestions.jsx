@@ -149,7 +149,7 @@ function EducationSuggestions() {
                 Ta'lim sifatini oshirishga qaratilgan murojaat va takliflarni yuboring
             </h1>
             <div className='w-full'>
-                <form onSubmit={handleSubmit} className='flex flex-col flex-wrap items-center w-full md:flex-row py-7'>
+                <form onSubmit={handleSubmit} className='flex flex-col flex-wrap items-center w-full md:flex-row py-7 px-3.5'>
                     <div className='w-full lg:w-1/2 lg:pr-2'>
                         {renderInput("text", "name", "F.I.SH")}
                         {renderInput("tel", "phoneNumber", "Telefon", { maxLength: "17" })}
