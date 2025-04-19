@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactOptions({ data }) {
     return (
-        <div className='flex items-center justify-center flex-wrap my-24 max-w-[540px] md:max-w-[720px] lg:max-w-[960px] w-full mx-auto'>
+        <div className='flex items-center justify-center flex-wrap my-10 max-w-[540px] md:max-w-[720px] lg:max-w-[960px] w-full mx-auto'>
             {data.map(item => (
                 <div
                     key={item.id}

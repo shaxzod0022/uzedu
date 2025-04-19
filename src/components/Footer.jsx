@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 // logo
@@ -14,25 +14,26 @@ import {
 function Footer() {
   return (
     <>
-      <div className="relative 2xl-mid:max-w-full"></div>
+      <div className="relative"></div>
       <footer className="min-h-[600px] h-full relative overflow-hidden pb-[30px] flex flex-col items-center justify-center text-white bg-myGreen footer__bft">
-        <div className="relative flex pt-[188px] mx-auto z-10">
-          <div className="w-[418px] pr-[100px] ml-[125px] mr-16 border-r border-r-white ">
+        <div className="relative flex flex-wrap lg:flex-nowrap items-center lg:items-start justify-center lg:justify-between pt-[60px] mx-auto z-10 w-full px-4 sm:px-16">
+          {/* 1st Column */}
+          <div className="w-full sm:w-[418px] sm:pr-[100px] sm:ml-[125px] sm:mr-16 border-r border-r-white mb-8 sm:mb-0">
             <img src={logoSecondary} alt="logo" className="w-full mb-7" />
-            <h1 className="text-xl font-bold mb-9">
+            <h1 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-9 text-center sm:text-left">
               O‘zbekiston Respublikasi maktabgacha va maktab ta'limi vazirligi
             </h1>
-            <h2 className="mb-12 text-xl font-thin">
+            <h2 className="mb-8 sm:mb-12 text-xl font-thin text-center sm:text-left">
               100011, O‘zbekiston, Toshkent, Shayxontohur tumani, Navoiy
               ko‘chasi, 2A-uy
             </h2>
             <div>
-              <ul>
+              <ul className="text-center sm:text-left">
                 {networkList.map((item) => (
                   <li key={item.id}>
                     <Link
                       to={item.link}
-                      className="flex items-center gap-5 py-4 text-3xl hover:text-[#f0f220]"
+                      className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
                     >
                       {item.icon}
                       <span className="text-lg">{item.title}</span>
@@ -42,8 +43,9 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="w-[324px] py-52 px-10 max-xl:pl-0">
-            <ul className="relative footer-ul__aft">
+          {/* 2nd Column */}
+          <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10 mb-8 sm:mb-0">
+            <ul className="relative lg:footer-ul__aft text-center sm:text-left">
               {vebSiteLegal.map((item) => (
                 <li key={item.id}>
                   <Link
@@ -63,21 +65,22 @@ function Footer() {
                 alt="Топ рейтинг www.uz"
                 width={88}
                 height={31}
+                className="mx-auto"
               />
             </a>
             <br />
             <br />
-            <ul className="relative footer-ul__aft">
-              <h5 className="mb-4 text-xl">Ishonch telefoni reytingi</h5>
+            <ul className="relative md:footer-ul__aft">
+              <h5 className="mb-4 text-xl text-center sm:text-left">Ishonch telefoni reytingi</h5>
               {hotlineRating.map((item) => (
-                <li key={item.id} className="flex flex-col mb-4">
+                <li key={item.id} className="flex flex-col mb-4 text-center sm:text-left">
                   <span>
                     {item.ball} - {item.number}
                   </span>
                   <span>{item.people}</span>
                 </li>
               ))}
-              <div className="flex justify-end">
+              <div className="flex justify-center sm:justify-end">
                 <button
                   type="button"
                   className="p-1 m-4 text-base cursor-pointer rounded-md bg-[#007bff] text-white hover:bg-[#0062cc] hover:text-[#4c4083] duration-200 transition-all"
@@ -87,13 +90,14 @@ function Footer() {
               </div>
             </ul>
           </div>
-          <div className="w-[324px] py-52 px-10 max-xl:pl-0 relative ">
+          {/* 3rd Column */}
+          <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10">
             <ul className="relative">
               {footerContentLinks.map((item) => (
                 <li key={item.id}>
                   <Link
                     to={item.link}
-                    className="relative flex items-center gap-3 py-4 text-xl font-bold hover:text-[#f0f220]"
+                    className="relative flex items-center gap-3 py-3 text-xl font-bold hover:text-[#f0f220] justify-center sm:justify-start"
                   >
                     {item.icon}
                     <span>{item.title}</span>
@@ -103,7 +107,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="relative z-20 pt-12 max-lg:max-w-[960px] ml-24 mx-auto">
+        <div className="relative z-20 pt-12 max-w-[960px] mx-auto text-center">
           <a
             href="https://creativecommons.org/licenses/by/4.0/"
             target="_blank"

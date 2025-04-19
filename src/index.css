@@ -132,12 +132,10 @@ html {
   transition: all 0.2s ease;
 }
 
-/* Chap tomonda */
 .swiper-button-prev {
   left: 0 !important;
 }
 
-/* O‘ng tomonda */
 .swiper-button-next {
   right: 0 !important;
 }
@@ -169,6 +167,14 @@ html {
   .swiper-button-prev:after,
   .swiper-button-next:after {
     font-size: 14px !important;
+  }
+
+  .swiper-button-prev {
+    left: 50px !important;
+  }
+
+  .swiper-button-next {
+    right: 50px !important;
   }
 
 }
