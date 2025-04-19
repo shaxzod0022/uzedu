@@ -69,6 +69,21 @@ html {
   background-position: center;
 }
 
+/* titles */
+.Title__aft::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 15px;
+  width: 230px;
+  background: #f7f889;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+
 /* footer  */
 .footer__bft::before {
   content: "";
@@ -104,4 +119,48 @@ html {
   top: 0;
   height: 100%;
   border-right: 1px solid #395499;
+}
+
+/* swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+  color: #0a8330 !important;
+  border: 1px solid #0a8330 !important;
+  transition: all 0.2s ease;
+  position: absolute;
+  top: 50px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #0a8330;
+}
+
+.swiper-button-prev:hover:after,
+.swiper-button-next:hover:after {
+  color: #fff !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #0a8330;
+  font-size: 20px !important;
+}
+
+@media (max-width: 768px) {
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 14px !important;
+  }
+
 }

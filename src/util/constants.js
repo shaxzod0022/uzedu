@@ -11,10 +11,23 @@ import {
   Database,
   LocateFixed,
 } from "lucide-react";
+
+// import image 
 import student from "../assets/student.jpg";
 import femily from "../assets/family.jpg";
 import teacher from "../assets/teacher.jpg";
 import school from "../assets/school.jpg";
+import mainIcon1 from '../assets/mainIcon1.svg'
+import mainIcon2 from '../assets/mainIcon2.svg'
+import mainIcon3 from '../assets/mainIcon3.svg'
+import ochiqAxborotlarProtali from '../assets/1SO_XkcIAlylxxP3frNdOk3Zi-InN7i2.jpg'
+import gerb from '../assets/HtHyhPqDo4iM8wByOjzbFdsRieQLuBnv.jpg'
+import taraqiyot from '../assets/mEPUPAMz2RMOw1DCqY-AlFV03hPzTgeV.jpg'
+import qonunHujatlari from '../assets/tDoD07ZpAtOMsYNJAQdrDlZ7OsHUygKC.jpg'
+import davlatAktivlari from '../assets/he_2F_zDKDSjGMFaSrGQ--Y_Rh2Ujrq7.jpg'
+import hukumatPortal from '../assets/ahrolQvWUhkWxys9o4VZXRE3NMelkb5h.jpg'
+import mygov from '../assets/ja31-w3afFEFnRsPI3Yea6k9tSNIK-xH.jpg'
+import bolalarKutubxonasi from '../assets/cXc8OOZLrpuhFYRXvNWJQ5GoYOeM88E6.jpg'
 
 export const footerLinks = {
   title: "Bog'lanish",
@@ -626,6 +639,188 @@ export const directions = [
     title: "Maktab ta'lim",
     value: 2
   }
+]
+
+// statistics of appeals
+export const statisticsAppeals = [
+  {
+    id: 1,
+    title: "Murojaatlar ko'rib chiqildi",
+    value: 9531,
+  },
+  {
+    id: 2,
+    title: "Ko'rib chiqilmoqda",
+    value: 0,
+  },
+  {
+    id: 3,
+    title: "Rad etilgan arizalar",
+    value: 27,
+  },
+  {
+    id: 4,
+    title: "MMTVda fuqarolarning umumiy murojaatlari (2024-yil 4-chorak)",
+    value: 9558,
+  },
+  {
+    id: 5,
+    title: "Murojaatlar ko'rib chiqildi",
+    value: 9531,
+  },
+  {
+    id: 6,
+    title: "Murojaatlar ko'rib chiqildi",
+    value: 9531,
+  },
+  {
+    id: 7,
+    title: "Ko'rib chiqilmoqda",
+    value: 0,
+  },
+  {
+    id: 8,
+    title: "Rad etilgan arizalar",
+    value: 27,
+  },
+  {
+    id: 9,
+    title: "MMTVda fuqarolarning umumiy murojaatlari (2024-yil 4-chorak)",
+    value: 9558,
+  },
+  {
+    id: 10,
+    title: "Murojaatlar ko'rib chiqildi",
+    value: 9531,
+  },
+]
+
+// survey statistics
+export const surveyStatistics = [
+  {
+    id: 1,
+    title: "Ko'rib chiqilgan so'rovlar",
+    value: 97,
+  },
+  {
+    id: 2,
+    title: "Ko'rib chiqilmoqda",
+    value: 0,
+  },
+  {
+    id: 3,
+    title: "Kelib tushgan so'rovlar soni (2024-yil 3-chorak)",
+    value: 56,
+  },
+  {
+    id: 4,
+    title: "Ko'rib chiqilgan so'rovlar",
+    value: 97,
+  },
+  {
+    id: 5,
+    title: "Ko'rib chiqilmoqda",
+    value: 0,
+  },
+  {
+    id: 6,
+    title: "Kelib tushgan so'rovlar soni (2024-yil 3-chorak)",
+    value: 56,
+  },
+  {
+    id: 7,
+    title: "Ko'rib chiqilgan so'rovlar",
+    value: 97,
+  },
+]
+
+// contact options 
+export const ContactOptionsData = [
+  {
+    id: 1,
+    title: 'Murojaatlar',
+    img: mainIcon1,
+    disp: "Maktabgacha va maktab ta'limi vazirligiga ariza, taklif yoki shikoyat bilan murojaat qilishingiz mumkin",
+    link: 'https://uzedu.uz/uz/static/request',
+  },
+  {
+    id: 2,
+    title: "G'oya yuborish",
+    img: mainIcon2,
+    disp: "Maktabgacha va maktab ta'limi tizimini rivojlantirish uchun g'oya yoki taklif yuborishingiz mumkin",
+    link: 'https://idea.uzedu.uz/uz',
+  },
+  {
+    id: 3,
+    title: 'Qabul grafigi',
+    img: mainIcon3,
+    disp: "Jismoniy va yuridik shaxslarni qabul qilish jadvali",
+    link: 'https://uzedu.uz/uz/staff/reception',
+  },
+]
+
+// Useful links
+export const UsefulLinksData = [
+  {
+    id: 1,
+    icon: ochiqAxborotlarProtali,
+    title: "O'zbekiston Respublikasi ochiq axborot portali",
+    link: 'http://data.gov.uz/',
+  },
+  {
+    id: 2,
+    icon: gerb,
+    title: "O'zbekiston Respublikasi Konstitutsiyasi",
+    link: 'https://constitution.uz/oz',
+  },
+  {
+    id: 3,
+    icon: taraqiyot,
+    title: `"Taraqqiyot strategiyasi" markazi`,
+    link: 'https://strategy.uz/',
+  },
+  {
+    id: 4,
+    icon: qonunHujatlari,
+    title: "O'zbekiston Respublikasi qonun hujjatlari ma'lumotlari milliy bazasi",
+    link: 'https://lex.uz/uz/',
+  },
+  {
+    id: 5,
+    icon: davlatAktivlari,
+    title: "Davlat aktivlarini boshqarish agentligi",
+    link: 'https://davaktiv.uz/ru/'
+  },
+  {
+    id: 6,
+    icon: gerb,
+    title: "O'zbekiston Respublikasi Prezidentining rasmiy veb-sayti",
+    link: 'https://president.uz/uz'
+  },
+  {
+    id: 7,
+    icon: gerb,
+    title: "O'zbekiston Respublikasi Prezidentining virtual qabulxonasi",
+    link: 'https://pm.gov.uz/uz'
+  },
+  {
+    id: 8,
+    icon: hukumatPortal,
+    title: "O'zbekiston Respublikasi hukumat portali",
+    link: 'https://gov.uz/oz'
+  },
+  {
+    id: 9,
+    icon: mygov,
+    title: "Yagona Interaktiv davlat xizmatlari portali",
+    link: 'https://my.gov.uz/uz'
+  },
+  {
+    id: 10,
+    icon: bolalarKutubxonasi,
+    title: "Respublika bolalar kutubxonasi",
+    link: 'https://kitob.uz/'
+  },
 ]
 
 export const firstCard = [

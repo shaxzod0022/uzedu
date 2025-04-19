@@ -145,7 +145,7 @@ function EducationSuggestions() {
 
     return (
         <div className='pt-7 max-w-[700px] w-full mx-auto bg-white'>
-            <h1 className='text-3xl my-2.5 font-bold text-myGreen text-center relative z-10 educationTitle__aft'>
+            <h1 className='text-3xl my-2.5 font-bold text-myGreen text-center relative z-10 Title__aft'>
                 Ta'lim sifatini oshirishga qaratilgan murojaat va takliflarni yuboring
             </h1>
             <div className='w-full'>

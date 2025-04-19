@@ -8,3 +8,6 @@ export { default as FirstCards } from "./FirstCards";
 export { default as SocialNetworksBar } from "./SocialNetworksBar";
 export { default as EducationSuggestions } from './EducationSuggestions'
 export { default as About } from "./About";
+export { default as SwiperStatistika } from './SwiperStatistika'
+export { default as ContactOptions } from './ContactOptions'
+export { default as UsefulLinks } from './UsefulLinks'
