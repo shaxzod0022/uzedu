@@ -615,6 +615,19 @@ export const regions = [
 
 ]
 
+export const directions = [
+  {
+    id: 1,
+    title: "Maktabgacha ta'lim",
+    value: 3
+  },
+  {
+    id: 2,
+    title: "Maktab ta'lim",
+    value: 2
+  }
+]
+
 export const firstCard = [
   {
     img: student,
