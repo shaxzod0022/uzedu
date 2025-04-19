@@ -8,7 +8,7 @@ import 'swiper/css/autoplay'
 
 function SwiperStatistika({ data, title }) {
   return (
-    <div className="py-10 px-4 bg-white">
+    <div className="pt-10 px-4 bg-white">
       <h1 className="text-3xl md:text-4xl font-bold text-myGreen text-center mb-8 relative z-10 Title__aft">
         {title}
       </h1>
