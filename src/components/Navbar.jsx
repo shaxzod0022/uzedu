@@ -8,11 +8,13 @@ import SaidBar from "./SaidBar";
 const Navbar = () => {
   const [hover, setHover] = useState(null);
   const [lang, setLang] = useState("o'z");
+  const [hidden, setHidden] = useState(true);
   return (
     <div
-      className={`max-w-[1640px] mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween}`}
+      className={`max-w-[1640px] relative mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween}`}
     >
       <button
+        onClick={() => setHidden((i) => !i)}
         className={`border xl:hidden block p-4 transition-all duration-200 text-white hover:bg-yellow-300 hover:text-myGreen`}
       >
         <Menu />
@@ -75,7 +77,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <SaidBar />
+        <SaidBar newClass={hidden} />
         <a
           href={lang === "o'z" ? "my-site" : "https://uzedu.uz/ru"}
           onClick={() => setLang((i) => (i === "o'z" ? "ru" : "o'z"))}
