@@ -10,13 +10,14 @@ import {
   SwiperStatistika,
   ContactOptions,
   UsefulLinks,
+  News,
 } from "../components";
 
 import {
   statisticsAppeals,
   surveyStatistics,
-  ContactOptionsData
-} from '../util/constants'
+  ContactOptionsData,
+} from "../util/constants";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         <FirstCards />
       </div>
       <About />
+      <News />
       <div>
         <EducationSuggestions />
         {/* murojatkar statistikasi */}
@@ -35,9 +37,7 @@ const Home = () => {
           title="Murojaatlar statistikasi"
         />
         {/* contact optins */}
-        <ContactOptions
-          data={ContactOptionsData}
-        />
+        <ContactOptions data={ContactOptionsData} />
         {/* so'rovlar statistikasi */}
         <SwiperStatistika
           data={surveyStatistics}

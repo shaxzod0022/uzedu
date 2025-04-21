@@ -12,22 +12,22 @@ import {
   LocateFixed,
 } from "lucide-react";
 
-// import image 
+// import image
 import student from "../assets/student.jpg";
 import femily from "../assets/family.jpg";
 import teacher from "../assets/teacher.jpg";
 import school from "../assets/school.jpg";
-import mainIcon1 from '../assets/mainIcon1.svg'
-import mainIcon2 from '../assets/mainIcon2.svg'
-import mainIcon3 from '../assets/mainIcon3.svg'
-import ochiqAxborotlarProtali from '../assets/1SO_XkcIAlylxxP3frNdOk3Zi-InN7i2.jpg'
-import gerb from '../assets/HtHyhPqDo4iM8wByOjzbFdsRieQLuBnv.jpg'
-import taraqiyot from '../assets/mEPUPAMz2RMOw1DCqY-AlFV03hPzTgeV.jpg'
-import qonunHujatlari from '../assets/tDoD07ZpAtOMsYNJAQdrDlZ7OsHUygKC.jpg'
-import davlatAktivlari from '../assets/he_2F_zDKDSjGMFaSrGQ--Y_Rh2Ujrq7.jpg'
-import hukumatPortal from '../assets/ahrolQvWUhkWxys9o4VZXRE3NMelkb5h.jpg'
-import mygov from '../assets/ja31-w3afFEFnRsPI3Yea6k9tSNIK-xH.jpg'
-import bolalarKutubxonasi from '../assets/cXc8OOZLrpuhFYRXvNWJQ5GoYOeM88E6.jpg'
+import mainIcon1 from "../assets/mainIcon1.svg";
+import mainIcon2 from "../assets/mainIcon2.svg";
+import mainIcon3 from "../assets/mainIcon3.svg";
+import ochiqAxborotlarProtali from "../assets/1SO_XkcIAlylxxP3frNdOk3Zi-InN7i2.jpg";
+import gerb from "../assets/HtHyhPqDo4iM8wByOjzbFdsRieQLuBnv.jpg";
+import taraqiyot from "../assets/mEPUPAMz2RMOw1DCqY-AlFV03hPzTgeV.jpg";
+import qonunHujatlari from "../assets/tDoD07ZpAtOMsYNJAQdrDlZ7OsHUygKC.jpg";
+import davlatAktivlari from "../assets/he_2F_zDKDSjGMFaSrGQ--Y_Rh2Ujrq7.jpg";
+import hukumatPortal from "../assets/ahrolQvWUhkWxys9o4VZXRE3NMelkb5h.jpg";
+import mygov from "../assets/ja31-w3afFEFnRsPI3Yea6k9tSNIK-xH.jpg";
+import bolalarKutubxonasi from "../assets/cXc8OOZLrpuhFYRXvNWJQ5GoYOeM88E6.jpg";
 
 export const footerLinks = {
   title: "Bog'lanish",
@@ -59,32 +59,32 @@ export const navTopLinks = [
   {
     id: 1,
     title: "O'qituvchi ish o'rinlari",
-    url: "",
+    url: "https://uzedu.uz/uz/page/job-form",
   },
   {
     id: 2,
     title: "Hujjatlar",
-    url: "",
+    url: "https://uzedu.uz/uz/documents/categories",
   },
   {
     id: 3,
     title: "Loyihalar",
-    url: "",
+    url: "https://uzedu.uz/uz/projects/index",
   },
   {
     id: 4,
     title: "Ko'p beriladigan savollar",
-    url: "",
+    url: "https://uzedu.uz/uz/faq",
   },
   {
     id: 5,
     title: "Davlat ramzlari",
-    url: "",
+    url: "https://uzedu.uz/uz/page/state-symbols",
   },
   {
     id: 6,
     title: "Fuqarolar murojati",
-    url: "",
+    url: "https://uzedu.uz/uz/static/request",
   },
 ];
 
@@ -95,43 +95,43 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Vazirlik haqida",
-        url: "",
+        url: "https://uzedu.uz/uz/page/about",
       },
       {
         linkTitle: "Raxbariyat",
-        url: "",
+        url: "https://uzedu.uz/leaders/index",
       },
       {
         linkTitle: "Vazirlik markaziy apparati",
-        url: "",
+        url: "https://uzedu.uz/staff/3",
       },
       {
         linkTitle: "Hududiy boshqarmalar",
-        url: "",
+        url: "https://uzedu.uz/staff/2",
       },
       {
         linkTitle: "Muvofiqlashtiruvchi va maslahat o'rganlari",
-        url: "",
+        url: "https://uzedu.uz/lists/1",
       },
       {
         linkTitle: "Respublika tashkilotlari",
-        url: "",
+        url: "https://uzedu.uz/staff/4",
       },
       {
         linkTitle: "Vazirlik tuzilmasi",
-        url: "",
+        url: "https://uzedu.uz/page/7",
       },
       {
         linkTitle: "Rekvizitlar",
-        url: "",
+        url: "https://uzedu.uz/page/requisites",
       },
       {
         linkTitle: "Missiya, maqsad va vazifalar",
-        url: "",
+        url: "https://uzedu.uz/static/strategy",
       },
       {
         linkTitle: "Bo'g'lanish",
-        url: "",
+        url: "https://uzedu.uz/static/contacts",
       },
     ],
   },
@@ -141,36 +141,36 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Statistika",
-        url: "",
+        url: "https://uzedu.uz/page/statistics",
       },
       {
         linkTitle: "Tahliliy ma'lumotlar",
-        url: "",
+        url: "https://uzedu.uz/page/tahliliy-malumotlar",
       },
       {
-        linkTitle: "T'limga doir terminlar",
-        url: "",
+        linkTitle: "Ta'limga doir terminlar",
+        url: "https://uzedu.uz/page/terms-education",
       },
       {
         linkTitle: "Elektron kutubxona",
-        url: "",
+        url: "https://kitob.uz",
       },
       {
         linkTitle:
           "Umumta'lim maktablarining hovli, kirish qismi va koridorlarini bezatish bo'yicha namunaviy tavsiyalar",
-        url: "",
+        url: "https://uzedu.uz/page/namunaviy-tavsiyalar",
       },
       {
         linkTitle: "'Barkamol avlod' Bolalar maktablari",
-        url: "",
+        url: "https://uzedu.uz/page/barkamol_avlod",
       },
       {
         linkTitle: "Imkoniyati cheklanganlarga",
-        url: "",
+        url: "https://uzedu.uz/page/organicennymi-vozmoznostami",
       },
       {
         linkTitle: "EFL Teacher Recruitment",
-        url: "",
+        url: "https://uzedu.uz/page/recruitment",
       },
     ],
   },
@@ -180,51 +180,51 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Страница Конституции",
-        url: "",
+        url: "https://uzedu.uz/page/konstitutsiya_sahifasi",
       },
       {
         linkTitle: "Elektron davlat xizmatlari reestri",
-        url: "",
+        url: "https://uzedu.uz/page/davlat_xizmatlari",
       },
       {
         linkTitle: "“Elektron hukumat” tizimi",
-        url: "",
+        url: "https://uzedu.uz/page/elektron_hukumat",
       },
       {
         linkTitle: "Harakatlar strategiyasi va Davlat dasturlari ",
-        url: "",
+        url: "https://uzedu.uz/page/davlat_dasturlari",
       },
       {
         linkTitle: "Gender tenglik",
-        url: "",
+        url: "https://uzedu.uz/lists/2",
       },
       {
         linkTitle: "Tenderlar",
-        url: "",
+        url: "https://uzedu.uz/lists/3",
       },
       {
         linkTitle: "Ish reja",
-        url: "",
+        url: "https://uzedu.uz/page/ish-reja",
       },
       {
         linkTitle: "Ochiq majlislar o'tkazish rejalari",
-        url: "",
+        url: "https://uzedu.uz/page/ochiq-majlislar-otkazish-rejalari",
       },
       {
         linkTitle: "Umumta'lim tashkilotlari faoliyatini tekshirish",
-        url: "",
+        url: "https://uzedu.uz/page/qaror-va-ijro",
       },
       {
         linkTitle: "Hisobotlar",
-        url: "",
+        url: "https://uzedu.uz/lists/4",
       },
       {
         linkTitle: "Investitsiya salohiyati",
-        url: "",
+        url: "https://uzedu.uz/page/investitsya-salohiyati",
       },
       {
         linkTitle: "Jismoniy va yuridik shaxslarning murojaati bilan ishlash",
-        url: "",
+        url: "https://uzedu.uz/page/grafik",
       },
     ],
   },
@@ -234,35 +234,35 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Vazirlik yangiliklari",
-        url: "",
+        url: "https://uzedu.uz/news/index",
       },
       {
         linkTitle: "Press-relizlar",
-        url: "",
+        url: "https://uzedu.uz/page/press-relis",
       },
       {
         linkTitle: "OAV biz haqimizda",
-        url: "",
+        url: "https://uzedu.uz/lists/9",
       },
       {
         linkTitle: "Ma'ruzalar ",
-        url: "",
+        url: "https://uzedu.uz/lists/5",
       },
       {
         linkTitle: "Logotip va brend qo'llanmasi",
-        url: "",
+        url: "https://uzedu.uz/static/brand-info",
       },
       {
         linkTitle: "Galereya",
-        url: "",
+        url: "https://uzedu.uz/gallery",
       },
       {
         linkTitle: "Videogalereya",
-        url: "",
+        url: "https://uzedu.uz/gallery/video",
       },
       {
         linkTitle: "Axborot xizmati",
-        url: "",
+        url: "https://uzedu.uz/staff/5",
       },
       {
         linkTitle: "Matbuot anjumanlari",
@@ -270,31 +270,31 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Konferensiyalar",
-        url: "",
+        url: "https://uzedu.uz/page/matbuot_anjumanlari",
       },
       {
         linkTitle: "Yordam",
-        url: "",
+        url: "https://uzedu.uz/lists/6",
       },
       {
         linkTitle: "Tanlovlar",
-        url: "",
+        url: "https://uzedu.uz/page/help",
       },
       {
         linkTitle: "Akkreditatsiya",
-        url: "",
+        url: "https://uzedu.uz/lists/7",
       },
       {
         linkTitle: "Vazirlik faoliyatining ochiqligi",
-        url: "",
+        url: "https://uzedu.uz/page/openness",
       },
       {
         linkTitle: "Infografika",
-        url: "",
+        url: "https://uzedu.uz/page/infographics",
       },
       {
         linkTitle: "Bayonotlar",
-        url: "",
+        url: "https://uzedu.uz/lists/8",
       },
     ],
   },
@@ -304,15 +304,15 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Ochiq budjet",
-        url: "",
+        url: "https://uzedu.uz/lists/group/11",
       },
       {
         linkTitle: "Ochiq ma'lumotlar (PF-6247)",
-        url: "",
+        url: "https://uzedu.uz/page/6247",
       },
       {
         linkTitle: "Ochiq ma'lumotlar to'plami",
-        url: "",
+        url: "https://uzedu.uz/documents/open-data",
       },
     ],
   },
@@ -322,20 +322,20 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Korrupsiyaga oid targibot materialllari",
-        url: "",
+        url: "https://uzedu.uz/lists/12",
       },
       {
         linkTitle:
           "Xodimlar xatti-harakatiga oid korrupsiyani oldini olish boʻyicha murojaat",
-        url: "",
+        url: "https://uzedu.uz/page/korrupsiyaga-qarshi-kurashish",
       },
       {
         linkTitle: "Korrupsiyaga qarshi kurashish bo‘yicha idoraviy hujjatlar",
-        url: "",
+        url: "https://uzedu.uz/page/some-page-test",
       },
       {
         linkTitle: "Amalga oshirilayotgan ishlar",
-        url: "",
+        url: "https://uzedu.uz/page/some-page",
       },
     ],
   },
@@ -362,8 +362,8 @@ export const networkList = [
   {
     id: 1,
     icon: <Phone />,
-    title: '(71) 202 09 09',
-    link: 'tel:712020909'
+    title: "(71) 202 09 09",
+    link: "tel:712020909",
   },
   {
     id: 2,
@@ -401,18 +401,18 @@ export const networkList = [
 export const vebSiteLegal = [
   {
     id: 1,
-    title: 'Cookie siyosati',
-    link: 'https://uzedu.uz/uz/page/cookie',
+    title: "Cookie siyosati",
+    link: "https://uzedu.uz/uz/page/cookie",
   },
   {
     id: 2,
-    title: 'Xavfsizlik siyosati',
-    link: 'https://uzedu.uz/uz/page/privacy',
+    title: "Xavfsizlik siyosati",
+    link: "https://uzedu.uz/uz/page/privacy",
   },
   {
     id: 3,
-    title: 'Foydalanish shartlari',
-    link: 'https://uzedu.uz/uz/page/terms',
+    title: "Foydalanish shartlari",
+    link: "https://uzedu.uz/uz/page/terms",
   },
   {
     id: 4,
@@ -458,22 +458,22 @@ export const footerContentLinks = [
   {
     id: 1,
     icon: <MessageSquare />,
-    title: 'Fuqarolarning murojaatlari',
-    link: 'https://uzedu.uz/uz/static/request',
+    title: "Fuqarolarning murojaatlari",
+    link: "https://uzedu.uz/uz/static/request",
   },
   {
     id: 2,
     icon: <Database />,
     title: "Ochiq ma'lumotlar",
-    link: 'https://uzedu.uz/uz/documents/open-data',
+    link: "https://uzedu.uz/uz/documents/open-data",
   },
   {
     id: 3,
     icon: <LocateFixed />,
-    title: 'Sayt xaritasi',
-    link: 'https://uzedu.uz/uz/static/site-map',
+    title: "Sayt xaritasi",
+    link: "https://uzedu.uz/uz/static/site-map",
   },
-]
+];
 
 // viloyatlar
 export const regions = [
@@ -579,7 +579,11 @@ export const regions = [
       { id: 503, sub__title: "Do‘stlik tumani", value: "dostlik" },
       { id: 504, sub__title: "Forish tumani", value: "forish" },
       { id: 505, sub__title: "G‘allaorol tumani", value: "gallaorol" },
-      { id: 506, sub__title: "Sharof Rashidov tumani", value: "sharof_rashidov" },
+      {
+        id: 506,
+        sub__title: "Sharof Rashidov tumani",
+        value: "sharof_rashidov",
+      },
       { id: 507, sub__title: "Mirzacho‘l tumani", value: "mirzachol" },
       { id: 508, sub__title: "Paxtakor tumani", value: "paxtakor" },
       { id: 509, sub__title: "Yangiobod tumani", value: "yangiobod" },
@@ -625,21 +629,20 @@ export const regions = [
       { id: 711, sub__title: "Namangan shahri", value: "namangan_sh" },
     ],
   },
-
-]
+];
 
 export const directions = [
   {
     id: 1,
     title: "Maktabgacha ta'lim",
-    value: 3
+    value: 3,
   },
   {
     id: 2,
     title: "Maktab ta'lim",
-    value: 2
-  }
-]
+    value: 2,
+  },
+];
 
 // statistics of appeals
 export const statisticsAppeals = [
@@ -693,7 +696,7 @@ export const statisticsAppeals = [
     title: "Murojaatlar ko'rib chiqildi",
     value: 9531,
   },
-]
+];
 
 // survey statistics
 export const surveyStatistics = [
@@ -732,32 +735,32 @@ export const surveyStatistics = [
     title: "Ko'rib chiqilgan so'rovlar",
     value: 97,
   },
-]
+];
 
-// contact options 
+// contact options
 export const ContactOptionsData = [
   {
     id: 1,
-    title: 'Murojaatlar',
+    title: "Murojaatlar",
     img: mainIcon1,
     disp: "Maktabgacha va maktab ta'limi vazirligiga ariza, taklif yoki shikoyat bilan murojaat qilishingiz mumkin",
-    link: 'https://uzedu.uz/uz/static/request',
+    link: "https://uzedu.uz/uz/static/request",
   },
   {
     id: 2,
     title: "G'oya yuborish",
     img: mainIcon2,
     disp: "Maktabgacha va maktab ta'limi tizimini rivojlantirish uchun g'oya yoki taklif yuborishingiz mumkin",
-    link: 'https://idea.uzedu.uz/uz',
+    link: "https://idea.uzedu.uz/uz",
   },
   {
     id: 3,
-    title: 'Qabul grafigi',
+    title: "Qabul grafigi",
     img: mainIcon3,
     disp: "Jismoniy va yuridik shaxslarni qabul qilish jadvali",
-    link: 'https://uzedu.uz/uz/staff/reception',
+    link: "https://uzedu.uz/uz/staff/reception",
   },
-]
+];
 
 // Useful links
 export const UsefulLinksData = [
@@ -765,63 +768,64 @@ export const UsefulLinksData = [
     id: 1,
     icon: ochiqAxborotlarProtali,
     title: "O'zbekiston Respublikasi ochiq axborot portali",
-    link: 'http://data.gov.uz/',
+    link: "http://data.gov.uz/",
   },
   {
     id: 2,
     icon: gerb,
     title: "O'zbekiston Respublikasi Konstitutsiyasi",
-    link: 'https://constitution.uz/oz',
+    link: "https://constitution.uz/oz",
   },
   {
     id: 3,
     icon: taraqiyot,
     title: `"Taraqqiyot strategiyasi" markazi`,
-    link: 'https://strategy.uz/',
+    link: "https://strategy.uz/",
   },
   {
     id: 4,
     icon: qonunHujatlari,
-    title: "O'zbekiston Respublikasi qonun hujjatlari ma'lumotlari milliy bazasi",
-    link: 'https://lex.uz/uz/',
+    title:
+      "O'zbekiston Respublikasi qonun hujjatlari ma'lumotlari milliy bazasi",
+    link: "https://lex.uz/uz/",
   },
   {
     id: 5,
     icon: davlatAktivlari,
     title: "Davlat aktivlarini boshqarish agentligi",
-    link: 'https://davaktiv.uz/ru/'
+    link: "https://davaktiv.uz/ru/",
   },
   {
     id: 6,
     icon: gerb,
     title: "O'zbekiston Respublikasi Prezidentining rasmiy veb-sayti",
-    link: 'https://president.uz/uz'
+    link: "https://president.uz/uz",
   },
   {
     id: 7,
     icon: gerb,
     title: "O'zbekiston Respublikasi Prezidentining virtual qabulxonasi",
-    link: 'https://pm.gov.uz/uz'
+    link: "https://pm.gov.uz/uz",
   },
   {
     id: 8,
     icon: hukumatPortal,
     title: "O'zbekiston Respublikasi hukumat portali",
-    link: 'https://gov.uz/oz'
+    link: "https://gov.uz/oz",
   },
   {
     id: 9,
     icon: mygov,
     title: "Yagona Interaktiv davlat xizmatlari portali",
-    link: 'https://my.gov.uz/uz'
+    link: "https://my.gov.uz/uz",
   },
   {
     id: 10,
     icon: bolalarKutubxonasi,
     title: "Respublika bolalar kutubxonasi",
-    link: 'https://kitob.uz/'
+    link: "https://kitob.uz/",
   },
-]
+];
 
 export const firstCard = [
   {
@@ -850,5 +854,73 @@ export const firstCard = [
     description:
       "Xalqaro tan olingan va milliy baholash tizimida berilgan sertifikatlar (ularning kombinasiyasi) ro'yxati hamda har oylik ustama olish uchun ularning eng kam onlinedu.uz, Ta'lim to'g'risidagi Qonun, Davlat ta'lim standartlari",
     url: "https://uzedu.uz/uz/services/index/4",
+  },
+];
+
+import placeholder from "../assets/placeholder.jpg";
+import new2 from "../assets/new2.jpg";
+import new3 from "../assets/new3.jpg";
+import new4 from "../assets/new4.jpg";
+import new5 from "../assets/new5.jpg";
+import new6 from "../assets/new5.jpg";
+import new7 from "../assets/new6.jpg";
+import new8 from "../assets/new8.jpg";
+
+export const news = [
+  {
+    img: placeholder,
+    title:
+      "Bitiruvchi sinf oʻquvchilarini yakuniy davlat attestatsiyasidan oʻtkazishga doir metodik tavsiya va materiallar tasdiqlandi",
+    date: "10-aprel 2025-yil",
+    url: "https://uzedu.uz/uz/news/1965",
+  },
+  {
+    img: new2,
+    title:
+      "Inson resurslarini rejalashtirishning yangi tizimini bosqichma-bosqich joriy etish masalalariga bagʻishlangan seminar-trening",
+    date: "19-mart 2025-yil",
+    url: "https://uzedu.uz/uz/news/1962",
+  },
+  {
+    img: new3,
+    title:
+      "Byudjet mablagʻlaridan samarali foydalanishda shaffoflikni taʼminlash uchun vazirlikda “Situatsion markaz” tashkil etildi",
+    date: "11-mart 2025-yil",
+    url: "https://uzedu.uz/uz/news/1947",
+  },
+  {
+    img: new4,
+    title:
+      "Kelgusi yildan maktabgacha taʼlim tashkilotlari tarbiyachilari ham Vaziri jamgʻarmasidan ustama olishlari mumkin",
+    date: "3-mart 2025-yil",
+    url: "https://uzedu.uz/uz/news/1945",
+  },
+  {
+    img: new5,
+    title:
+      "Joriy o‘quv yilida yakuniy davlat attestatsiyasini oʻtkazish tartibi belgilandi",
+    date: "26-fevral 2025-yil",
+    url: "https://uzedu.uz/uz/news/1944",
+  },
+  {
+    img: new6,
+    title:
+      "​​​​​​​Vazir jamgʻarmasi ustamasi uchun dastlabki sinov jarayonlari 25-fevral kuni oʻtkaziladi",
+    date: "19-fevral 2025-yil",
+    url: "https://uzedu.uz/uz/news/1943",
+  },
+  {
+    img: new7,
+    title:
+      '“Siz ekologiyaga oid qonunlarni bilasizmi?" koʻrik-tanlovining hududiy bosqichi boʻlib oʻtmoqda',
+    date: "19-fevral 2025-yil",
+    url: "https://uzedu.uz/uz/news/1939",
+  },
+  {
+    img: new8,
+    title:
+      "O'QUVCHILARNI KASBGA YO‘NALTIRISH VA O‘QITISH BO‘YICHA AMALIY TADBIR TASHKIL ETILDI",
+    date: "1-fevral 2025-yil",
+    url: "https://uzedu.uz/uz/news/1937",
   },
 ];

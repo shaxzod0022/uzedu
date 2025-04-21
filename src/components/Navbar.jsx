@@ -3,6 +3,7 @@ import { styles } from "../util/styles";
 import { navBottomLinks, navTopLinks } from "../util/constants";
 import { useState } from "react";
 import logo from "../assets/logoDark.svg";
+import SaidBar from "./SaidBar";
 
 const Navbar = () => {
   const [hover, setHover] = useState(null);
@@ -74,12 +75,14 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <button
+        <SaidBar />
+        <a
+          href={lang === "o'z" ? "my-site" : "https://uzedu.uz/ru"}
           onClick={() => setLang((i) => (i === "o'z" ? "ru" : "o'z"))}
           className={`border transition-all duration-200 p-4 text-white hover:bg-yellow-300 hover:text-myGreen font-semibold uppercase`}
         >
           {lang}
-        </button>
+        </a>
       </div>
     </div>
   );

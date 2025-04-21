@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 // swiper
-import { Autoplay } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/autoplay'
+import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
 
 function SwiperStatistika({ data, title }) {
   return (
@@ -23,21 +23,24 @@ function SwiperStatistika({ data, title }) {
         }}
         className="max-w-6xl mx-auto"
       >
-        {data.map((item,index) => (
+        {data.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="h-48 flex flex-col items-center justify-center text-center 
- sm:border-r-2 sm:border-r-black py-1.5 px-5">
+            <div
+              className="h-48 flex flex-col items-center justify-center text-center 
+ sm:border-r-2 sm:border-r-black py-1.5 px-5"
+            >
               <h2 className="text-4xl font-bold text-myGreen mb-2.5">
                 {item.value.toLocaleString()}
               </h2>
-              <span className="text-base font-light text-myGreen">{item.title}</span>
+              <span className="text-base font-light text-myGreen">
+                {item.title}
+              </span>
             </div>
           </SwiperSlide>
-
         ))}
       </Swiper>
     </div>
-  )
+  );
 }
 
-export default SwiperStatistika
+export default SwiperStatistika;
