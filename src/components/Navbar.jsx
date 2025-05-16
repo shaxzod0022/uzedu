@@ -56,7 +56,7 @@ const Navbar = () => {
                 </span>
                 <ul
                   className={`border ${
-                    hover === link.id ? "block" : "hidden"
+                    hover === link.id ? "block z-20" : "hidden"
                   } border-yellow-300 w-[170px] top-6 -left-6 bg-myGreen absolute px-3`}
                 >
                   {link.links.map((link2, idx2) => (
