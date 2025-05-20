@@ -14,7 +14,7 @@ const Content = () => {
         alt="logo"
       />
       <a
-        href="/"
+        href="hello"
         className={`${styles.fBetween} rounded-lg bg-yellow-300 hover:bg-myGreen hover:text-yellow-300 transition-all duration-100 text-myGreen p-4 text-md xl:text-2xl sm:text-lg font-semibold !flex-nowrap gap-3`}
       >
         <MailOpen className="w-10 h-10" />

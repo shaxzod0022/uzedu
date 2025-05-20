@@ -10,6 +10,7 @@ import {
   hotlineRating,
   footerContentLinks,
 } from "../util/constants";
+import { Send } from "lucide-react";
 
 function Footer() {
   return (
@@ -19,20 +20,32 @@ function Footer() {
         <div className="relative flex flex-wrap lg:flex-nowrap items-center lg:items-start justify-center lg:justify-between pt-[60px] mx-auto z-10 w-full px-4 sm:px-16">
           {/* 1st Column */}
           <div className="w-full sm:w-[418px] sm:pr-[100px] sm:ml-[125px] sm:mr-16 border-r border-r-white mb-8 sm:mb-0">
-            <img src={logoSecondary} alt="logo" className="sm:w-1/2 w-full mb-7" />
+            <img
+              src={logoSecondary}
+              alt="logo"
+              className="sm:w-1/2 w-full mb-7"
+            />
             <h1 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-9 text-center sm:text-left">
-              O‘zbekiston Respublikasi maktabgacha va maktab ta'limi vazirligi
+              Samarqand viloyati maktabgacha va maktab ta'limi boshqarmasi
             </h1>
             <h2 className="mb-8 sm:mb-12 text-xl font-thin text-center sm:text-left">
-              100011, O‘zbekiston, Toshkent, Shayxontohur tumani, Navoiy
-              ko‘chasi, 2A-uy
+              Samarqand shaxar, X. Obiddinov ko'chasi 1-uy
             </h2>
             <div>
               <ul className="text-center sm:text-left">
+                <Link
+                  target="_blank"
+                  to={"https://t.me/sammmtb_bot"}
+                  className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
+                >
+                  <Send />
+                  <span className="text-lg">Murojat uchun</span>
+                </Link>
                 {networkList.map((item) => (
                   <li key={item.id}>
                     <Link
                       to={item.link}
+                      target="_blank"
                       className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
                     >
                       {item.icon}
@@ -71,9 +84,14 @@ function Footer() {
             <br />
             <br />
             <ul className="relative md:footer-ul__aft">
-              <h5 className="mb-4 text-xl text-center sm:text-left">Ishonch telefoni reytingi</h5>
+              <h5 className="mb-4 text-xl text-center sm:text-left">
+                Ishonch telefoni reytingi
+              </h5>
               {hotlineRating.map((item) => (
-                <li key={item.id} className="flex flex-col mb-4 text-center sm:text-left">
+                <li
+                  key={item.id}
+                  className="flex flex-col mb-4 text-center sm:text-left"
+                >
                   <span>
                     {item.ball} - {item.number}
                   </span>

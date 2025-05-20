@@ -371,25 +371,25 @@ export const networkList = [
   {
     id: 2,
     icon: <Mail />,
-    title: "info@uzedu.uz",
+    title: "sam.info@uzedu.uz",
     link: "Sam_MMT07@exat.uz",
   },
   {
     id: 3,
     icon: <Facebook />,
-    title: "@uzedu",
+    title: "@sam.uzedu",
     link: "https://www.facebook.com/SamarqandMMTB",
   },
   {
     id: 4,
     icon: <Send />,
-    title: "@uzedu",
+    title: "@sam.uzedu",
     link: "https://t.me/samarqandvxtb",
   },
   {
     id: 5,
     icon: <Youtube />,
-    title: "/uzedu",
+    title: "/sam.uzedu",
     link: "https://youtube.com/@samarqandmmtb?si=g4gzrVdEdzPY9TEi",
   },
 ];
