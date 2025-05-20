@@ -2,7 +2,7 @@ import { Menu } from "lucide-react";
 import { styles } from "../util/styles";
 import { navBottomLinks, navTopLinks } from "../util/constants";
 import { useState } from "react";
-import logo from "../assets/logoDark.svg";
+import logo from "../assets/placeholder.jpg";
 import SaidBar from "./SaidBar";
 
 const Navbar = () => {

@@ -342,18 +342,23 @@ export const navBottomLinks = [
 ];
 
 export const headSlide = [
-  { id: 1, title: "Maktab", number: 1234556 },
+  { id: 1, title: "Maktablar", number: "1 286" },
   {
     id: 2,
     title: "Barkamol avlod maktablari",
-    number: 123456,
+    number: "17",
   },
-  { id: 3, title: "O'quvchilar", number: 223344 },
-  { id: 4, title: "Mehribonlik uyi", number: 232132 },
   {
-    id: 5,
-    title: "O'qituvchilar",
-    number: 32414332,
+    id: 3,
+    title: "Barkamol avlod maktablari o'quvchilari",
+    number: "44 472",
+  },
+  { id: 4, title: "O'quvchilar", number: "782 903" },
+  { id: 5, title: "Barcha MTTlar", number: "4 100" },
+  {
+    id: 6,
+    title: "Qamrab olingan 3-7 yoshli bolalar",
+    number: "275 719",
   },
 ];
 

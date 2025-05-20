@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // logo
-import logoSecondary from "../assets/logoSecondary.svg";
+import logoSecondary from "../assets/samvillogofull.jpg";
 
 import {
   networkList,
@@ -19,7 +19,7 @@ function Footer() {
         <div className="relative flex flex-wrap lg:flex-nowrap items-center lg:items-start justify-center lg:justify-between pt-[60px] mx-auto z-10 w-full px-4 sm:px-16">
           {/* 1st Column */}
           <div className="w-full sm:w-[418px] sm:pr-[100px] sm:ml-[125px] sm:mr-16 border-r border-r-white mb-8 sm:mb-0">
-            <img src={logoSecondary} alt="logo" className="w-full mb-7" />
+            <img src={logoSecondary} alt="logo" className="sm:w-1/2 w-full mb-7" />
             <h1 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-9 text-center sm:text-left">
               O‘zbekiston Respublikasi maktabgacha va maktab ta'limi vazirligi
             </h1>

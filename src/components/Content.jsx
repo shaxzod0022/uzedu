@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logoSecondaryDark.svg";
+import logo from "../assets/placeholder.jpg";
 import Button from "./Button";
 import { Headset, MailOpen } from "lucide-react";
 import { styles } from "../util/styles";

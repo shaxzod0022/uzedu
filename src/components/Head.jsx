@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import { styles } from "../util/styles";
-import logoWhite from "../assets/logoWhite.svg";
+import logoWhite from "../assets/samvillogofull.jpg";
 import { headSlide } from "../util/constants";
 import { ChevronRight } from "lucide-react";
 import bottomWhiteImg from "../assets/mainHeaderBottomShape.svg";
@@ -36,7 +36,7 @@ const Head = () => {
           <h1
             className={`${styles.heading1} text-white xl:text-left text-center xl:my-0 my-8 xl:mb-16`}
           >
-            O‘zbekiston Respublikasi maktabgacha va maktab ta'limi vazirligi
+            Samarqand viloyati maktabgacha va maktab ta'limi vazirligi
           </h1>
           <div className={`flex flex-col xl:text-left text-right`}>
             <i className={`xl:text-lg text-sm text-white`}>
