@@ -19,14 +19,14 @@ const Content = () => {
       >
         <MailOpen className="w-10 h-10" />
         <span>
-          Maktabgacha va maktab ta’limi vaziriga <br /> murojaat va
-          takliflaringizni yuboring!
+          Samarqand viloyati Maktabgacha va <br /> maktab ta'limi boshqarmasi
+          boshlig'iga <br /> murojaat va takliflaringizni yuboring!
         </span>
       </a>
       <div className={`${styles.fBetween} gap-1`}>
         <div>
           <p className="font-bold text-xl">Ishonch telefoni</p>
-          <p className="mb-2 text-lg">(71) 202 09 09</p>
+          <p className="mb-2 text-lg">(55) 704 74 00</p>
         </div>
         <Headset size={55} className="text-myGreen" />
       </div>

@@ -1,5 +1,3 @@
-// import { instagram, telegram, whatsapp, youtube } from "../assets/";
-// icons import
 import {
   Phone,
   Mail,
@@ -343,17 +341,17 @@ export const navBottomLinks = [
 
 export const headSlide = [
   { id: 1, title: "Maktablar", number: "1 286" },
+  { id: 2, title: "O'quvchilar", number: "782 903" },
   {
-    id: 2,
+    id: 3,
     title: "Barkamol avlod maktablari",
     number: "17",
   },
   {
-    id: 3,
+    id: 4,
     title: "Barkamol avlod maktablari o'quvchilari",
     number: "44 472",
   },
-  { id: 4, title: "O'quvchilar", number: "782 903" },
   { id: 5, title: "Barcha MTTlar", number: "4 100" },
   {
     id: 6,
@@ -380,25 +378,19 @@ export const networkList = [
     id: 3,
     icon: <Facebook />,
     title: "@uzedu",
-    link: "https://www.facebook.com/uzedu",
+    link: "https://www.facebook.com/SamarqandMMTB",
   },
   {
     id: 4,
     icon: <Send />,
     title: "@uzedu",
-    link: "https://t.me/uzedu",
+    link: "https://t.me/samarqandvxtb",
   },
   {
     id: 5,
-    icon: <Instagram />,
-    title: "/uzedu",
-    link: "https://www.instagram.com/uzedu.uz/",
-  },
-  {
-    id: 6,
     icon: <Youtube />,
     title: "/uzedu",
-    link: "https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg",
+    link: "https://youtube.com/@samarqandmmtb?si=g4gzrVdEdzPY9TEi",
   },
 ];
 
