@@ -4,7 +4,6 @@ import {
   Content,
   EducationSuggestions,
   FirstCards,
-  Footer,
   Head,
   SocialNetworksBar,
   SwiperStatistika,
@@ -45,7 +44,6 @@ const Home = () => {
         />
         <UsefulLinks />
       </div>
-      <Footer />
       <SocialNetworksBar />
     </div>
   );

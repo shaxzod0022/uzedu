@@ -12,3 +12,4 @@ export { default as SwiperStatistika } from "./SwiperStatistika";
 export { default as ContactOptions } from "./ContactOptions";
 export { default as UsefulLinks } from "./UsefulLinks";
 export { default as News } from "./News";
+export { default as Boshliq } from "./Boshliq";

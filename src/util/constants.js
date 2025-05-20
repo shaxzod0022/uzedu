@@ -97,7 +97,7 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Raxbariyat",
-        url: "https://uzedu.uz/leaders/index",
+        url: "raxbariyat",
       },
       {
         linkTitle: "Vazirlik markaziy apparati",
@@ -365,14 +365,14 @@ export const networkList = [
   {
     id: 1,
     icon: <Phone />,
-    title: "(71) 202 09 09",
-    link: "tel:712020909",
+    title: "(55) 704 74 00",
+    link: "tel:557047400",
   },
   {
     id: 2,
     icon: <Mail />,
     title: "info@uzedu.uz",
-    link: "mailto:info@xtv.uz",
+    link: "Sam_MMT07@exat.uz",
   },
   {
     id: 3,

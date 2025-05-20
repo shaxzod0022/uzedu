@@ -5,13 +5,13 @@ import { useState } from "react";
 import logo from "../assets/samvillogofull.jpg";
 import SaidBar from "./SaidBar";
 
-const Navbar = () => {
+const Navbar = ({ newClass }) => {
   const [hover, setHover] = useState(null);
   const [lang, setLang] = useState("o'z");
   const [hidden, setHidden] = useState(true);
   return (
     <div
-      className={`max-w-[1640px] relative mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween}`}
+      className={`max-w-[1640px] ${newClass} relative mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween}`}
     >
       <button
         onClick={() => setHidden((i) => !i)}

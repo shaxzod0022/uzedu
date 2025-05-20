@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { ScrollToTop } from "./components";
-import { Home } from "./screens";
+import { Footer, ScrollToTop } from "./components";
+import { Home, Raxbariyat, RaxbarlarHaqida } from "./screens";
 
 const AppRoutes = () => {
   return (
@@ -9,7 +9,10 @@ const AppRoutes = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/raxbariyat" element={<Raxbariyat />} />
+        <Route path="/hodim/:id" element={<RaxbarlarHaqida />} />
       </Routes>
+      <Footer />
     </>
   );
 };
