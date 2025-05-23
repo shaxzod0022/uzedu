@@ -6,7 +6,7 @@ const Raxbariyat = () => {
     <div>
       <Navbar newClass={"bg-myGreen w-full lg:!px-36 sm:w-full"} />
       <Boshliq />
-      <Hodimlar />
+      <Hodimlar initialBrack={0} brack={4} />
     </div>
   );
 };

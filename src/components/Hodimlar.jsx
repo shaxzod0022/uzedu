@@ -3,14 +3,14 @@ import { styles } from "../util/styles";
 import { useNavigate } from "react-router";
 import { hodimlar } from "../util/constants";
 
-const Hodimlar = () => {
+const Hodimlar = ({ initialBrack, brack }) => {
   const [hover, setHover] = useState(null);
   const navigate = useNavigate();
   return (
     <div
       className={`mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween} !items-start gap-2`}
     >
-      {hodimlar.map((item) => (
+      {hodimlar.slice(initialBrack, brack).map((item) => (
         <div
           key={item.id}
           onMouseOver={() => setHover(item.id)}

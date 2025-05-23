@@ -101,11 +101,11 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Vazirlik markaziy apparati",
-        url: "https://uzedu.uz/staff/3",
+        url: "markaziy-aparat",
       },
       {
         linkTitle: "Hududiy boshqarmalar",
-        url: "https://uzedu.uz/staff/2",
+        url: "boshqarma-hodimlari",
       },
       {
         linkTitle: "Muvofiqlashtiruvchi va maslahat o'rganlari",
@@ -888,6 +888,23 @@ import {
   xursandov,
   yakubovM,
 } from "../assets/hodimlar";
+import {
+  abulxayrov,
+  daminov,
+  daminova,
+  jamilov,
+  jangirov,
+  jusupova,
+  nuriddinov,
+  ochilov,
+  rasulov,
+  saitmuratova,
+  saparova,
+  sultanov,
+  xojamqulov,
+  xushbaqov,
+  zoitov,
+} from "../assets/hodimlar2";
 
 export const news = [
   {
@@ -953,7 +970,7 @@ export const hodimlar = [
     id: 1,
     image: "",
     title: "Носиров Анвар Худайбердиевич",
-    info: "Бошварма бошлиғининг биринчи ўринбосари в в б",
+    info: "Бошкарма бошлиғининг биринчи ўринбосари в в б",
   },
   {
     id: 2,
@@ -1110,5 +1127,101 @@ export const hodimlar = [
     image: xursandov,
     title: "XURSANDOV AKMAL RUSTAMOVICH",
     info: "Таълим ташкилотлари инфратузилмасини ривожлантириш ва мулкидан самарали фойдаланиш бўлими бошлиғи",
+  },
+  {
+    id: 31,
+    image: nuriddinov,
+    title: "НУРИДДИНОВ Зайниддин Мехриддинович",
+    info: "Самарқанд шаҳар мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 32,
+    image: daminov,
+    title: "ДАМИНОВ Алишер Акбарович",
+    info: "Каттақўрғон шаҳар мактабгача ва мактаб таълими бўлими бошлиғи в.б",
+  },
+  {
+    id: 33,
+    image: jangirov,
+    title: "ЖАНГИРОВ Озод Жаниқулович",
+    info: "Булунғур туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 34,
+    image: jusupova,
+    title: "ЮСУПОВА Зарифа Абдусаломовна",
+    info: "Жомбой туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 35,
+    image: saitmuratova,
+    title: "САИДМУРАТОВА Гулчехра Ибрагимовна",
+    info: "Иштихон туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 36,
+    image: sultanov,
+    title: "СУЛТАНОВ Шокир Қувонович",
+    info: "Каттақўрғон тумани мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 37,
+    image: xojamqulov,
+    title: "ХЎЖАМҚУЛОВ Ўктам Муродимович",
+    info: "Қўшработ туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 38,
+    image: daminova,
+    title: "ДАМИНОВА Зухра Рахматуллаевна",
+    info: "Нарпай туман мактабгача ва мактаб таълими бўлими бошлиғи в.в.б",
+  },
+  {
+    id: 39,
+    image: xushbaqov,
+    title: "Хушбақов Шавкат Уролович",
+    info: "Нуробод туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 40,
+    image: jamilov,
+    title: "ЖАМИЛОВ Элёр Фарходович",
+    info: "Оқдарё туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 41,
+    image: ochilov,
+    title: "ОЧИЛОВ Жасур Бахриддинович",
+    info: "Паяриқ туман мактабгача ва мактаб таълими бўлими бошлиғив.в.б",
+  },
+  {
+    id: 42,
+    image: saparova,
+    title: "САПАРОВА Нодира Холикуловна",
+    info: "Пастдарғом туман мактабгача ва мактаб таълими бўлими бошлиғи в.в.б",
+  },
+  {
+    id: 43,
+    image: rasulov,
+    title: "РАСУЛОВ Шохрух Норбутаевич",
+    info: "Пахтачи тумани мактабгача ва мактаб таълими бўлими бошлиғи в.в.б",
+  },
+  {
+    id: 44,
+    image: abulxayrov,
+    title: "АБУЛХАЙРОВ Шерзод Рустамович ",
+    info: "Самарқанд тумани мактабгача ва мактаб таълими бўлими бошлиғи в.в.б",
+  },
+  {
+    id: 45,
+    image: usmanov,
+    title: "УСМОНОВ Ўлмас Облоқулович",
+    info: "Тойлоқ туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 46,
+    image: zoitov,
+    title: "ЗОИТОВ Жавлон Зокирович",
+    info: "Ургут туман мактабгача ва мактаб таълими бўлими бошлиғи",
   },
 ];

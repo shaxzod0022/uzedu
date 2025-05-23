@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { Footer, ScrollToTop } from "./components";
-import { Home, Raxbariyat, RaxbarlarHaqida } from "./screens";
+import {
+  Home,
+  HududiyBoshqarma,
+  MarkaziyApparat,
+  Raxbariyat,
+  RaxbarlarHaqida,
+} from "./screens";
 
 const AppRoutes = () => {
   const pathname = useLocation().pathname;
@@ -17,6 +23,8 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/raxbariyat" element={<Raxbariyat />} />
         <Route path="/hodim/:id" element={<RaxbarlarHaqida />} />
+        <Route path="/boshqarma-hodimlari" element={<HududiyBoshqarma />} />
+        <Route path="/markaziy-aparat" element={<MarkaziyApparat />} />
       </Routes>
       <Footer />
     </>
