@@ -862,6 +862,32 @@ import new5 from "../assets/new5.jpg";
 import new6 from "../assets/new5.jpg";
 import new7 from "../assets/new6.jpg";
 import new8 from "../assets/new8.jpg";
+import {
+  abdiyevaM,
+  bobokulovA,
+  eshankulov,
+  fayziyevR,
+  goziyevX,
+  ibragimov,
+  ishmuratov,
+  jiyanovF,
+  jurayevZ,
+  karimovL,
+  karshiyevB,
+  kosimovB,
+  marupovO,
+  mirzayevS,
+  nomirovS,
+  olimovA,
+  qosimovF,
+  salimovaG,
+  turayevZ,
+  tursunovA,
+  usmanov,
+  xolikulovI,
+  xursandov,
+  yakubovM,
+} from "../assets/hodimlar";
 
 export const news = [
   {
@@ -919,5 +945,170 @@ export const news = [
       "O'QUVCHILARNI KASBGA YO‘NALTIRISH VA O‘QITISH BO‘YICHA AMALIY TADBIR TASHKIL ETILDI",
     date: "1-fevral 2025-yil",
     url: "https://uzedu.uz/uz/news/1937",
+  },
+];
+
+export const hodimlar = [
+  {
+    id: 1,
+    image: "",
+    title: "Носиров Анвар Худайбердиевич",
+    info: "Бошварма бошлиғининг биринчи ўринбосари в в б",
+  },
+  {
+    id: 2,
+    image: eshankulov,
+    title: "ESHANKULOV SHAXZOD ESHKUVATOVICH",
+    info: "бошлиқнинг ўринбосари ",
+  },
+  {
+    id: 3,
+    image: jurayevZ,
+    title: "JURAYEV ZAYNITDIN TURSUNBOYEVICH",
+    info: "бошлиқнинг ўринбосари",
+  },
+  {
+    id: 4,
+    image: bobokulovA,
+    title: "BOBOQULOV ASRORJON ABROR O‘G‘LI",
+    info: "бошлиқнинг ўринбосари",
+  },
+  {
+    id: 5,
+    image: mirzayevS,
+    title: "MIRZAYEV SOBIRJON AMINOVICH",
+    info: "Инсон ресурсларини бошқариш ва ривожлантириш бўлими бошлиғи ",
+  },
+  {
+    id: 6,
+    image: tursunovA,
+    title: "TURSUNOV ABDUNABI ALIQULOVICH",
+    info: "Юридик хизмат кўрсатиш шўъбаси бошлиғи ",
+  },
+  {
+    id: 7,
+    image: kosimovB,
+    title: "KOSIMOV BEXZOD ABDIALIMOVICH",
+    info: "Назорат-таҳлил, ижро интизоми ва мурожаатлар билан ишлаш шўъбаси бошлиғи ",
+  },
+  {
+    id: 8,
+    image: karshiyevB,
+    title: "KARSHIYEVA BAXTIGUL DANAQULOVNA",
+    info: "Матбуот котиби ",
+  },
+  {
+    id: 9,
+    image: fayziyevR,
+    title: "FAYZIYEV ROZIK MAJIDOVICH",
+    info: "Умумий ўрта таълим ташкилотлари фаолиятини мувофиқлаштириш шўъбаси бошлиғи",
+  },
+  {
+    id: 10,
+    image: "",
+    title: "Исаев Зокир",
+    info: "Ўқув жараёнини методик таъминлаш ва дарсликлар бўлими бошлиғи",
+  },
+  {
+    id: 11,
+    image: salimovaG,
+    title: "SALIMOVA GULMIRA KURBANOVNA",
+    info: "Ўқувчилар билимини баҳолаш  ва таҳлил қилиш шуъбаси бошлиғи ",
+  },
+  {
+    id: 12,
+    image: karimovL,
+    title: "KARIMOV LATIF ABDUXAKIMOVICH",
+    info: "Педагогларнинг билими ҳамда кўникмаларини  баҳолаш шўъбаси бош методисти ",
+  },
+  {
+    id: 13,
+    image: ibragimov,
+    title: "IBRAGIMOV NURALI YAXSHIBOYEVICH",
+    info: "Таълим ташкилотларини  аккредитациялашни ташкил этиш шўъбаси методисти ",
+  },
+  {
+    id: 14,
+    image: turayevZ,
+    title: "TURAYEV ZAFARJON SHAKIROVICH",
+    info: "Таълим ташкилотларини литсензиялашни ташкил етиш бўйича бош мутахассис ",
+  },
+  {
+    id: 15,
+    image: "",
+    title: "Вакант ",
+    info: "Хорижий тилларни ўрганишни оммалаштиришни шўъбаси бошлиғи",
+  },
+  {
+    id: 16,
+    image: marupovO,
+    title: "MARUPOV ORIFJON KOMILJONOVICH",
+    info: "Ихтисослаштирилган таълим муассасалари фаолиятини мувофиқлаштириш шўъбаси бошлиғи",
+  },
+  {
+    id: 17,
+    image: yakubovM,
+    title: "YAKUBOV MURODILLO SHAVKAT O‘G‘LI",
+    info: "АКТни жорий этиш ва рақамлаштириш шўъбаси бошлиғи",
+  },
+  {
+    id: 18,
+    image: jiyanovF,
+    title: "JIYANOV FURQAT MUROTQOBULOVICH",
+    info: "Мактабгача таълим ташкилотлари фаолиятини мувофиқлаштириш шуъбаси бошлиғи",
+  },
+  {
+    id: 20,
+    image: ishmuratov,
+    title: "ISHMURATOV DJURABEK ASTANAKULOVICH",
+    info: "Педагог кадрлар салоҳиятини оширишни  мувофиқлаштириш шўъбаси бошлиғи",
+  },
+  {
+    id: 21,
+    image: abdiyevaM,
+    title: "ABDIYEVA MUZAFARA XXX",
+    info: "Болаларни психологик қўллаб қувватлаш ва инкюзив таълим бўйича методисти ",
+  },
+  {
+    id: 22,
+    image: nomirovS,
+    title: "NOMIROV SOLOXIDIN NOSIROVICH",
+    info: "Соғлом овқатлантиришни ташкил етиш ва тиббий хизмат кўрсатишни мувофиқлаштириш шўбаси бошлиғи",
+  },
+  {
+    id: 24,
+    image: qosimovF,
+    title: "QOSIMOV FAYOZIDDIN ANARKULOVICH",
+    info: "Давлат-хусусий шерикликни ривожлантириш  шўъба бошлиғи",
+  },
+  {
+    id: 25,
+    image: olimovA,
+    title: "OLIMOV AKMAL AXMATOVICH",
+    info: "Таълим ташкилотларида тарбиявий ишларни мувофиқлаштириш ва мактабдан ташқари таълимни ташкил етиш шўъбаси бошлиғи",
+  },
+  {
+    id: 27,
+    image: goziyevX,
+    title: "G‘OZIYEV XURSHID NIYATQOBILOVICH",
+    info: "Ўқувчиларни касбга йўналтириш ва психолог хизмат шўъбаси бошлиғи",
+  },
+  {
+    id: 28,
+    image: xolikulovI,
+    title: "XOLIKULOV ILXOM ABDUMUMINOVICH",
+    info: "Молия шўъбаси бошлиғи",
+  },
+  {
+    id: 29,
+    image: usmanov,
+    title: "USMANOV ASLIDDIN ERGASHEVICH",
+    info: "Бухгалтерия ҳисоби ва давлат харидлари шўъбаси в в б",
+  },
+  {
+    id: 30,
+    image: xursandov,
+    title: "XURSANDOV AKMAL RUSTAMOVICH",
+    info: "Таълим ташкилотлари инфратузилмасини ривожлантириш ва мулкидан самарали фойдаланиш бўлими бошлиғи",
   },
 ];

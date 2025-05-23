@@ -13,3 +13,4 @@ export { default as ContactOptions } from "./ContactOptions";
 export { default as UsefulLinks } from "./UsefulLinks";
 export { default as News } from "./News";
 export { default as Boshliq } from "./Boshliq";
+export { default as Hodimlar } from "./Hodimlar";
