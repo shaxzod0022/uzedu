@@ -89,11 +89,12 @@ export const navTopLinks = [
 export const navBottomLinks = [
   {
     id: 1,
-    title: "Vazirlik",
+    title: "Boshqarma",
     links: [
       {
-        linkTitle: "Vazirlik haqida",
-        url: "https://uzedu.uz/uz/page/about",
+        linkTitle:
+          "Samarqand vil. maktabgacha va maktab ta'limi boshqarmasi haqida",
+        url: "/hodim/47",
       },
       {
         linkTitle: "Raxbariyat",
@@ -890,6 +891,7 @@ import {
 } from "../assets/hodimlar";
 import {
   abulxayrov,
+  boshqarma,
   daminov,
   daminova,
   jamilov,
@@ -1223,5 +1225,11 @@ export const hodimlar = [
     image: zoitov,
     title: "ЗОИТОВ Жавлон Зокирович",
     info: "Ургут туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+  {
+    id: 47,
+    image: boshqarma,
+    title: "Носиров Анвар",
+    info: "",
   },
 ];

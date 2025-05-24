@@ -11,7 +11,7 @@ const HududiyBoshqarma = () => {
           <p className="bg-yellow-300 w-[80px] h-[5px]"></p>
         </div>
       </div>
-      <Hodimlar initialBrack={27} brack={46} />
+      <Hodimlar initialBrack={27} brack={43} />
     </div>
   );
 };

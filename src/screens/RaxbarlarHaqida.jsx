@@ -1,5 +1,4 @@
 import { styles } from "../util/styles";
-import boshliq from "../assets/samvilmttbosh.jpg";
 import { Navbar } from "../components";
 import { hodimlar } from "../util/constants";
 import { useParams } from "react-router";

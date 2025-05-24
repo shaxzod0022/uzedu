@@ -14,3 +14,4 @@ export { default as rasulov } from "./rasulov.png";
 export { default as saparova } from "./saparova.png";
 export { default as ochilov } from "./ochilov.png";
 export { default as jamilov } from "./jamilov.png";
+export { default as boshqarma } from "./photo_2025-05-24_08-20-04.jpg";
