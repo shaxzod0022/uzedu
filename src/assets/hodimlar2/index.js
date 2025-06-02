@@ -24,3 +24,5 @@ export { default as yakubov_murodullo } from "./yakubov_murodullo.jpg";
 export { default as karimov_latif } from "./karimov_latif.jpg";
 export { default as xursandov_akmal } from "./xursandov_akmal.jpg";
 export { default as nomirov_salohiddin } from "./nomirov_salohiddin.jpg";
+export { default as jurayev_zayniddin } from "./jurayev_zayniddin.jpg";
+export { default as bobokulov } from "./bobokulov.jpg";

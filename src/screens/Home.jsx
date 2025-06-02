@@ -5,7 +5,6 @@ import {
   EducationSuggestions,
   FirstCards,
   Head,
-  SocialNetworksBar,
   SwiperStatistika,
   ContactOptions,
   UsefulLinks,
@@ -44,7 +43,6 @@ const Home = () => {
         />
         <UsefulLinks />
       </div>
-      <SocialNetworksBar />
     </div>
   );
 };

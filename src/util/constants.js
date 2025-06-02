@@ -94,39 +94,27 @@ export const navBottomLinks = [
       {
         linkTitle:
           "Samarqand vil. maktabgacha va maktab ta'limi boshqarmasi haqida",
-        url: "/hodim/47",
+        url: "/about",
       },
       {
         linkTitle: "Raxbariyat",
         url: "/raxbariyat",
       },
       {
-        linkTitle: "Vazirlik markaziy apparati",
+        linkTitle: "Boshqarma apparati",
         url: "/markaziy-aparat",
       },
       {
-        linkTitle: "Hududiy boshqarmalar",
+        linkTitle: "Hududiy bo'limlar",
         url: "/boshqarma-hodimlari",
       },
       {
-        linkTitle: "Muvofiqlashtiruvchi va maslahat o'rganlari",
-        url: "https://uzedu.uz/lists/1",
-      },
-      {
-        linkTitle: "Respublika tashkilotlari",
-        url: "https://uzedu.uz/staff/4",
-      },
-      {
-        linkTitle: "Vazirlik tuzilmasi",
+        linkTitle: "Boshqarma tuzilmasi",
         url: "https://uzedu.uz/page/7",
       },
       {
         linkTitle: "Rekvizitlar",
         url: "https://uzedu.uz/page/requisites",
-      },
-      {
-        linkTitle: "Missiya, maqsad va vazifalar",
-        url: "https://uzedu.uz/static/strategy",
       },
       {
         linkTitle: "Bo'g'lanish",
@@ -390,7 +378,7 @@ export const networkList = [
   {
     id: 5,
     icon: <Youtube />,
-    title: "/sam.uzedu",
+    title: "sam.uzedu",
     link: "https://youtube.com/@samarqandmmtb?si=g4gzrVdEdzPY9TEi",
   },
 ];
@@ -865,13 +853,11 @@ import new7 from "../assets/new6.jpg";
 import new8 from "../assets/new8.jpg";
 import {
   abdiyevaM,
-  bobokulovA,
   eshankulov,
   goziyevX,
   ibragimov,
   ishmuratov,
   jiyanovF,
-  jurayevZ,
   karshiyevB,
   kosimovB,
   mirzayevS,
@@ -883,6 +869,7 @@ import {
 } from "../assets/hodimlar";
 import {
   abulxayrov,
+  bobokulov,
   boshqarma,
   daminov,
   daminova,
@@ -890,6 +877,7 @@ import {
   isaev,
   jamilov,
   jangirov,
+  jurayev_zayniddin,
   jusupova,
   karimov_latif,
   nomirov_salohiddin,
@@ -983,13 +971,13 @@ export const hodimlar = [
   },
   {
     id: 3,
-    image: jurayevZ,
+    image: jurayev_zayniddin,
     title: "JURAYEV ZAYNITDIN TURSUNBOYEVICH",
     info: "бошлиқнинг ўринбосари",
   },
   {
     id: 4,
-    image: bobokulovA,
+    image: bobokulov,
     title: "BOBOQULOV ASRORJON ABROR O‘G‘LI",
     info: "бошлиқнинг ўринбосари",
   },

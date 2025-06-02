@@ -11,9 +11,11 @@ html {
 }
 
 .bg__image {
-  background-image: linear-gradient(to right,
-      rgba(10, 131, 48, 0.7),
-      rgb(10, 131, 48, 0.7)),
+  background-image: linear-gradient(
+      to right,
+      rgba(19, 159, 214, 0.7),
+      rgba(19, 159, 214, 0.7)
+    ),
     url("./assets/newBackground.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +73,7 @@ html {
 
 /* titles */
 .Title__aft::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -83,7 +85,6 @@ html {
   z-index: -1;
 }
 
-
 /* footer  */
 .footer__bft::before {
   content: "";
@@ -91,11 +92,10 @@ html {
   top: 820px;
   left: 0;
   right: 0;
-  background: #0a8330;
+  background: #139fd6;
   width: 100%;
   height: 100%;
 }
-
 
 .legal-link {
   position: relative;
@@ -109,7 +109,7 @@ html {
   width: 60px;
   bottom: 0;
   left: 0;
-  background: #4bce61;
+  background: #139fd6;
 }
 
 .footer-ul__aft::after {
@@ -127,8 +127,8 @@ html {
   width: 45px !important;
   height: 45px !important;
   border-radius: 50% !important;
-  color: #0a8330 !important;
-  border: 1px solid #0a8330 !important;
+  color: #139fd6 !important;
+  border: 1px solid #139fd6 !important;
   transition: all 0.2s ease;
 }
 
@@ -142,7 +142,7 @@ html {
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  background-color: #0a8330;
+  background-color: #139fd6;
 }
 
 .swiper-button-prev:hover:after,
@@ -152,12 +152,11 @@ html {
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-  color: #0a8330;
+  color: #139fd6;
   font-size: 20px !important;
 }
 
 @media (max-width: 768px) {
-
   .swiper-button-prev,
   .swiper-button-next {
     width: 32px !important;
@@ -176,5 +175,4 @@ html {
   .swiper-button-next {
     right: 50px !important;
   }
-
 }
