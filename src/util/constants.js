@@ -237,7 +237,7 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Matbuot anjumanlari",
-        url: "",
+        url: "/anjuman",
       },
       {
         linkTitle: "Tanlovlar",
@@ -838,6 +838,7 @@ import {
 import {
   abulxayrov,
   bobokulov,
+  bolalar,
   boshqarma,
   daminov,
   daminova,
@@ -848,6 +849,7 @@ import {
   jurayev_zayniddin,
   jusupova,
   karimov_latif,
+  kunlik90,
   nomirov_salohiddin,
   nuriddinov,
   ochilov,
@@ -868,60 +870,16 @@ import {
 
 export const news = [
   {
-    img: placeholder,
-    title:
-      "Bitiruvchi sinf oʻquvchilarini yakuniy davlat attestatsiyasidan oʻtkazishga doir metodik tavsiya va materiallar tasdiqlandi",
-    date: "10-aprel 2025-yil",
-    url: "https://uzedu.uz/uz/news/1965",
+    img: kunlik90,
+    title: `Bugun tumandagi "Kumushkent" mahallasida joylashgan 32-umumta'lim maktabida tumandagi maktab o‘quvchilari va yoshlar ishtirokida "Dolzarb 90 kunlik" tadbirlari doirasida kitobxonlik, xorijiy til bilimdonlari loyihalari o'tkazildi.`,
+    date: "",
+    url: "",
   },
   {
-    img: new2,
-    title:
-      "Inson resurslarini rejalashtirishning yangi tizimini bosqichma-bosqich joriy etish masalalariga bagʻishlangan seminar-trening",
-    date: "19-mart 2025-yil",
-    url: "https://uzedu.uz/uz/news/1962",
-  },
-  {
-    img: new3,
-    title:
-      "Byudjet mablagʻlaridan samarali foydalanishda shaffoflikni taʼminlash uchun vazirlikda “Situatsion markaz” tashkil etildi",
-    date: "11-mart 2025-yil",
-    url: "https://uzedu.uz/uz/news/1947",
-  },
-  {
-    img: new4,
-    title:
-      "Kelgusi yildan maktabgacha taʼlim tashkilotlari tarbiyachilari ham Vaziri jamgʻarmasidan ustama olishlari mumkin",
-    date: "3-mart 2025-yil",
-    url: "https://uzedu.uz/uz/news/1945",
-  },
-  {
-    img: new5,
-    title:
-      "Joriy o‘quv yilida yakuniy davlat attestatsiyasini oʻtkazish tartibi belgilandi",
-    date: "26-fevral 2025-yil",
-    url: "https://uzedu.uz/uz/news/1944",
-  },
-  {
-    img: new6,
-    title:
-      "​​​​​​​Vazir jamgʻarmasi ustamasi uchun dastlabki sinov jarayonlari 25-fevral kuni oʻtkaziladi",
-    date: "19-fevral 2025-yil",
-    url: "https://uzedu.uz/uz/news/1943",
-  },
-  {
-    img: new7,
-    title:
-      '“Siz ekologiyaga oid qonunlarni bilasizmi?" koʻrik-tanlovining hududiy bosqichi boʻlib oʻtmoqda',
-    date: "19-fevral 2025-yil",
-    url: "https://uzedu.uz/uz/news/1939",
-  },
-  {
-    img: new8,
-    title:
-      "O'QUVCHILARNI KASBGA YO‘NALTIRISH VA O‘QITISH BO‘YICHA AMALIY TADBIR TASHKIL ETILDI",
-    date: "1-fevral 2025-yil",
-    url: "https://uzedu.uz/uz/news/1937",
+    img: bolalar,
+    title: `Bolalar ishtirokidagi YTHlarning oldini olish maqsadida Samarqand shahridagi 50-MTTda Samarqand viloyati IIB JXX YHXB xodimlari tomonidan navbatdagi targ’ibot tadbiri olib borildi.`,
+    date: "",
+    url: "https://t.me/samyhxb",
   },
 ];
 

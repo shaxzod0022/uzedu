@@ -31,3 +31,5 @@ export { default as gerb } from "./gerb.jpg";
 export { default as bayroq } from "./bayroq.jpg";
 export { default as tayloqtumaniUsmanov } from "./tayloqtumani.png";
 export { default as statistika } from "./statistika.jpg";
+export { default as kunlik90 } from "./90-kunlik.jpg";
+export { default as bolalar } from "./bolalar.jpg";
