@@ -74,17 +74,6 @@ function Footer() {
             </ul>
             <br />
             <br />
-            <a href="https://www.uz/ru/res/visitor/index?id=1316">
-              <img
-                src="https://cnt0.www.uz/counter/collect?id=1316&r=https%3A//uzedu.uz/y3&pg=https%3A//uzedu.uz/uz&c=Y&j=N&wh=1536x864&px=24&js=1.3&col=F7AE00&t=ffffff&p=0E418F"
-                alt="Топ рейтинг www.uz"
-                width={88}
-                height={31}
-                className="mx-auto"
-              />
-            </a>
-            <br />
-            <br />
             <ul className="relative md:footer-ul__aft">
               <h5 className="mb-4 text-xl text-center sm:text-left">
                 Ishonch telefoni reytingi

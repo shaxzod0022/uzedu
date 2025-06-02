@@ -426,12 +426,6 @@ export const footerContentLinks = [
     title: "Ochiq ma'lumotlar",
     link: "https://uzedu.uz/uz/documents/open-data",
   },
-  {
-    id: 3,
-    icon: <LocateFixed />,
-    title: "Sayt xaritasi",
-    link: "https://uzedu.uz/uz/static/site-map",
-  },
 ];
 
 // viloyatlar
@@ -608,7 +602,7 @@ export const statisticsAppeals = [
   {
     id: 1,
     title: "Murojaatlar ko'rib chiqildi",
-    value: 9531,
+    value: 0,
   },
   {
     id: 2,
@@ -618,22 +612,22 @@ export const statisticsAppeals = [
   {
     id: 3,
     title: "Rad etilgan arizalar",
-    value: 27,
+    value: 0,
   },
   {
     id: 4,
-    title: "MMTVda fuqarolarning umumiy murojaatlari (2024-yil 4-chorak)",
-    value: 9558,
+    title: "Fiqarolarning murojatlari",
+    value: 0,
   },
   {
     id: 5,
     title: "Murojaatlar ko'rib chiqildi",
-    value: 9531,
+    value: 0,
   },
   {
     id: 6,
     title: "Murojaatlar ko'rib chiqildi",
-    value: 9531,
+    value: 0,
   },
   {
     id: 7,
@@ -643,17 +637,17 @@ export const statisticsAppeals = [
   {
     id: 8,
     title: "Rad etilgan arizalar",
-    value: 27,
+    value: 0,
   },
   {
     id: 9,
-    title: "MMTVda fuqarolarning umumiy murojaatlari (2024-yil 4-chorak)",
-    value: 9558,
+    title: "Fuqarolar murojatlari",
+    value: 0,
   },
   {
     id: 10,
     title: "Murojaatlar ko'rib chiqildi",
-    value: 9531,
+    value: 0,
   },
 ];
 
@@ -672,12 +666,12 @@ export const surveyStatistics = [
   {
     id: 3,
     title: "Kelib tushgan so'rovlar soni (2024-yil 3-chorak)",
-    value: 56,
+    value: 0,
   },
   {
     id: 4,
     title: "Ko'rib chiqilgan so'rovlar",
-    value: 97,
+    value: 0,
   },
   {
     id: 5,
@@ -687,12 +681,12 @@ export const surveyStatistics = [
   {
     id: 6,
     title: "Kelib tushgan so'rovlar soni (2024-yil 3-chorak)",
-    value: 56,
+    value: 0,
   },
   {
     id: 7,
     title: "Ko'rib chiqilgan so'rovlar",
-    value: 97,
+    value: 0,
   },
 ];
 
