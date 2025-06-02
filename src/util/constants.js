@@ -1204,18 +1204,18 @@ export const qabul_qiluvchilar = [
     date: "Payshanba kuni soat 09:00 dan 11:00 gacha",
   },
   {
+    id: 4,
+    image: jurayev_zayniddin,
+    title: "JURAYEV ZAYNITDIN TURSUNBOYEVICH",
+    info: "Boshliq o'rinbosari",
+    date: "Chorshanba kuni soat 09:00 dan 11:00 gacha",
+  },
+  {
     id: 3,
     image: eshankulov,
     title: "ESHANKULOV SHAXZOD ESHKUVATOVICH",
     info: "Boshliq o'rinbosari",
     date: "Seshanba kuni soat 09:00 dan 11:00 gacha",
-  },
-  {
-    id: 4,
-    image: jurayev_zayniddin,
-    title: "JURAYEV ZAYNITDIN TURSUNBOYEVICH",
-    info: "",
-    date: "Chorshanba kuni soat 09:00 dan 11:00 gacha",
   },
   {
     id: 5,
