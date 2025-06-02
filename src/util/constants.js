@@ -118,7 +118,8 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Bo'g'lanish",
-        url: "https://uzedu.uz/static/contacts",
+        // url: "https://uzedu.uz/static/contacts",
+        url: "#footer",
       },
     ],
   },
@@ -145,7 +146,8 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Imkoniyati cheklanganlarga",
-        url: "https://uzedu.uz/page/organicennymi-vozmoznostami",
+        // url: "https://uzedu.uz/page/organicennymi-vozmoznostami",
+        url: "/",
       },
     ],
   },
@@ -155,7 +157,8 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Страница Конституции",
-        url: "https://uzedu.uz/page/konstitutsiya_sahifasi",
+        // url: "https://uzedu.uz/page/konstitutsiya_sahifasi",
+        url: "/",
       },
       {
         linkTitle: "Elektron davlat xizmatlari reestri",
@@ -163,31 +166,38 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Harakatlar strategiyasi va Davlat dasturlari ",
-        url: "https://uzedu.uz/page/davlat_dasturlari",
+        // url: "https://uzedu.uz/page/davlat_dasturlari",
+        url: "/",
       },
       {
         linkTitle: "Gender tenglik",
-        url: "https://uzedu.uz/lists/2",
+        // url: "https://uzedu.uz/lists/2",
+        url: "/",
       },
       {
         linkTitle: "Tenderlar",
-        url: "https://uzedu.uz/lists/3",
+        // url: "https://uzedu.uz/lists/3",
+        url: "/",
       },
       {
         linkTitle: "Ish reja",
-        url: "https://uzedu.uz/page/ish-reja",
+        // url: "https://uzedu.uz/page/ish-reja",
+        url: "/",
       },
       {
         linkTitle: "Umumta'lim tashkilotlari faoliyatini tekshirish",
-        url: "https://uzedu.uz/page/qaror-va-ijro",
+        // url: "https://uzedu.uz/page/qaror-va-ijro",
+        url: "/",
       },
       {
         linkTitle: "Hisobotlar",
-        url: "https://uzedu.uz/lists/4",
+        // url: "https://uzedu.uz/lists/4",
+        url: "/",
       },
       {
         linkTitle: "Jismoniy va yuridik shaxslarning murojaati bilan ishlash",
-        url: "https://uzedu.uz/page/grafik",
+        // url: "https://uzedu.uz/page/grafik",
+        url: "/",
       },
     ],
   },
@@ -197,27 +207,33 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Yangiliklari",
-        url: "https://uzedu.uz/news/index",
+        // url: "https://uzedu.uz/news/index",
+        url: "/",
       },
       {
         linkTitle: "Press-relizlar",
-        url: "https://uzedu.uz/page/press-relis",
+        // url: "https://uzedu.uz/page/press-relis",
+        url: "/",
       },
       {
         linkTitle: "OAV biz haqimizda",
-        url: "https://uzedu.uz/lists/9",
+        // url: "https://uzedu.uz/lists/9",
+        url: "/",
       },
       {
         linkTitle: "Ma'ruzalar ",
-        url: "https://uzedu.uz/lists/5",
+        // url: "https://uzedu.uz/lists/5",
+        url: "/",
       },
       {
         linkTitle: "Galereya",
-        url: "https://uzedu.uz/gallery",
+        // url: "https://uzedu.uz/gallery",
+        url: "/",
       },
       {
         linkTitle: "Videogalereya",
-        url: "https://uzedu.uz/gallery/video",
+        // url: "https://uzedu.uz/gallery/video",
+        url: "/",
       },
       {
         linkTitle: "Matbuot anjumanlari",
@@ -226,7 +242,7 @@ export const navBottomLinks = [
       {
         linkTitle: "Tanlovlar",
         // url: "https://uzedu.uz/page/help",
-        url: "",
+        url: "/",
       },
       {
         linkTitle: "Boshqarma faoliyatining ochiqligi",
@@ -251,11 +267,13 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Ochiq ma'lumotlar (PF-6247)",
-        url: "https://uzedu.uz/page/6247",
+        // url: "https://uzedu.uz/page/6247",
+        url: "/",
       },
       {
         linkTitle: "Ochiq ma'lumotlar to'plami",
-        url: "https://uzedu.uz/documents/open-data",
+        // url: "https://uzedu.uz/documents/open-data",
+        url: "/",
       },
     ],
   },
@@ -265,16 +283,19 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Korrupsiyaga oid targibot materialllari",
-        url: "https://uzedu.uz/lists/12",
+        // url: "https://uzedu.uz/lists/12",
+        url: "/",
       },
       {
         linkTitle:
           "Xodimlar xatti-harakatiga oid korrupsiyani oldini olish boʻyicha murojaat",
-        url: "https://uzedu.uz/page/korrupsiyaga-qarshi-kurashish",
+        // url: "https://uzedu.uz/page/korrupsiyaga-qarshi-kurashish",
+        url: "/",
       },
       {
         linkTitle: "Korrupsiyaga qarshi kurashish bo‘yicha idoraviy hujjatlar",
-        url: "https://uzedu.uz/page/some-page-test",
+        // url: "https://uzedu.uz/page/some-page-test",
+        url: "/",
       },
     ],
   },
@@ -309,12 +330,12 @@ export const networkList = [
     title: "(55) 704 74 00",
     link: "tel:557047400",
   },
-  {
-    id: 2,
-    icon: <Mail />,
-    title: "sam.info@uzedu.uz",
-    link: "Sam_MMT07@exat.uz",
-  },
+  // {
+  //   id: 2,
+  //   icon: <Mail />,
+  //   title: "sam.info@uzedu.uz",
+  //   link: "sam_MMT07@exat.uz",
+  // },
   {
     id: 3,
     icon: <Facebook />,

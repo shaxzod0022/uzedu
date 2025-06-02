@@ -15,8 +15,10 @@ import { Send } from "lucide-react";
 function Footer() {
   return (
     <>
-      <div className="relative"></div>
-      <footer className="min-h-[600px] h-full relative overflow-hidden pb-[30px] flex flex-col items-center justify-center text-white bg-myGreen footer__bft">
+      <footer
+        id="footer"
+        className="min-h-[600px] h-full relative overflow-hidden pb-[30px] flex flex-col items-center justify-center text-white bg-myGreen footer__bft"
+      >
         <div className="relative flex flex-wrap lg:flex-nowrap items-center lg:items-start justify-center lg:justify-between pt-[60px] mx-auto z-10 w-full px-4 sm:px-16">
           {/* 1st Column */}
           <div className="w-full sm:w-[418px] sm:pr-[100px] sm:ml-[125px] sm:mr-16 border-r border-r-white mb-8 sm:mb-0">
