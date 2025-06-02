@@ -77,7 +77,7 @@ export const navTopLinks = [
   {
     id: 5,
     title: "Davlat ramzlari",
-    url: "https://uzedu.uz/uz/page/state-symbols",
+    url: "/davlat-ramzlari",
   },
   {
     id: 6,
@@ -114,7 +114,7 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Rekvizitlar",
-        url: "https://uzedu.uz/page/requisites",
+        url: "rekvizitlar",
       },
       {
         linkTitle: "Bo'g'lanish",
@@ -159,7 +159,6 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Elektron davlat xizmatlari reestri",
-        // url: "https://uzedu.uz/page/davlat_xizmatlari",
         url: "/elektron-dxx",
       },
       {
@@ -251,10 +250,6 @@ export const navBottomLinks = [
     title: "Ochiq ma'lumotlar",
     links: [
       {
-        linkTitle: "Ochiq budjet",
-        url: "https://uzedu.uz/lists/group/11",
-      },
-      {
         linkTitle: "Ochiq ma'lumotlar (PF-6247)",
         url: "https://uzedu.uz/page/6247",
       },
@@ -280,10 +275,6 @@ export const navBottomLinks = [
       {
         linkTitle: "Korrupsiyaga qarshi kurashish bo‘yicha idoraviy hujjatlar",
         url: "https://uzedu.uz/page/some-page-test",
-      },
-      {
-        linkTitle: "Amalga oshirilayotgan ishlar",
-        url: "https://uzedu.uz/page/some-page",
       },
     ],
   },

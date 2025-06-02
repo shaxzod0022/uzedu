@@ -27,3 +27,5 @@ export { default as nomirov_salohiddin } from "./nomirov_salohiddin.jpg";
 export { default as jurayev_zayniddin } from "./jurayev_zayniddin.jpg";
 export { default as bobokulov } from "./bobokulov.jpg";
 export { default as boshqarma_tuzilmasi } from "./boshqarma_tuzilmasi.jpg";
+export { default as gerb } from "./gerb.jpg";
+export { default as bayroq } from "./bayroq.jpg";

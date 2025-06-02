@@ -13,8 +13,8 @@ const FirstCards = () => {
       >
         <img src={miniBanner} className="w-[35%] lg:block hidden" alt="" />
         <p className="text-white text-xl md:text-left text-center">
-          Процесс онлайн-приема детей в 1 класс <br /> общеобразовательных школ
-          начнется <br /> c 20 июня 2024 года в 12:00
+          O‘quvchilarni umumta’lim maktablariga onlayn <br /> qabul qilish va
+          boshqa maktabga o‘tkazish tizim
         </p>
         <a
           href="https://my.maktab.uz/"

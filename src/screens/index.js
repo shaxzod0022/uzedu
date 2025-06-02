@@ -6,3 +6,5 @@ export { default as MarkaziyApparat } from "./MarkaziyApparat";
 export { default as About } from "./About";
 export { default as BoshqarmaTuzilmasi } from "./BoshqarmaTuzilmasi";
 export { default as ElektronDxx } from "./ElektronDxx";
+export { default as DavlatRamzlari } from "./DavlatRamzlari";
+export { default as Rekvizitlar } from "./Rekvizitlar";

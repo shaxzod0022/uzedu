@@ -4,12 +4,14 @@ import { Footer, ScrollToTop, SocialNetworksBar } from "./components";
 import {
   About,
   BoshqarmaTuzilmasi,
+  DavlatRamzlari,
   ElektronDxx,
   Home,
   HududiyBoshqarma,
   MarkaziyApparat,
   Raxbariyat,
   RaxbarlarHaqida,
+  Rekvizitlar,
 } from "./screens";
 
 const AppRoutes = () => {
@@ -27,7 +29,9 @@ const AppRoutes = () => {
         <Route path="/raxbariyat" element={<Raxbariyat />} />
         <Route path="/about" element={<About />} />
         <Route path="/boshqarma_tuilmasi" element={<BoshqarmaTuzilmasi />} />
-        <Route path="/ekektron-dxx" element={<ElektronDxx />} />
+        <Route path="/elektron-dxx" element={<ElektronDxx />} />
+        <Route path="/davlat-ramzlari" element={<DavlatRamzlari />} />
+        <Route path="/rekvizitlar" element={<Rekvizitlar />} />
         <Route path="/hodim/:id" element={<RaxbarlarHaqida />} />
         <Route path="/boshqarma-hodimlari" element={<HududiyBoshqarma />} />
         <Route path="/markaziy-aparat" element={<MarkaziyApparat />} />

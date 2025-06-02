@@ -11,9 +11,11 @@ const Navbar = ({ newClass }) => {
   const [hidden, setHidden] = useState(true);
   return (
     <>
-      <div className="absolute top-0 left-0 w-full h-10 bg-yellow-300 overflow-hidden z-50">
-        <div className="whitespace-nowrap animate-marquee text-black font-semibold h-full flex items-center">
-          <span className="px-4">Sayt test rejimida ishlamoqda</span>
+      <div className="absolute top-0 left-0 w-full h-10 bg-white overflow-hidden z-50">
+        <div className="whitespace-nowrap animate-marquee font-semibold h-full flex items-center">
+          <span className="px-4 text-red-500">
+            Sayt test rejimida ishlamoqda
+          </span>
         </div>
       </div>
       <div
