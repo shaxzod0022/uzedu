@@ -129,7 +129,7 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Statistika",
-        url: "/statistics",
+        url: "/statistiks",
       },
       {
         linkTitle: "Ta'limga doir terminlar",

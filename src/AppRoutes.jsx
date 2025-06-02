@@ -13,6 +13,7 @@ import {
   Raxbariyat,
   RaxbarlarHaqida,
   Rekvizitlar,
+  Statistika,
 } from "./screens";
 
 const AppRoutes = () => {
@@ -37,6 +38,7 @@ const AppRoutes = () => {
         <Route path="/boshqarma-hodimlari" element={<HududiyBoshqarma />} />
         <Route path="/markaziy-aparat" element={<MarkaziyApparat />} />
         <Route path="/murojatlar" element={<Murojatlar />} />
+        <Route path="/statistiks" element={<Statistika />} />
       </Routes>
       <Footer />
       <SocialNetworksBar />

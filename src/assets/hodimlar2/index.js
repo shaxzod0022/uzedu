@@ -30,3 +30,4 @@ export { default as boshqarma_tuzilmasi } from "./boshqarma_tuzilmasi.jpg";
 export { default as gerb } from "./gerb.jpg";
 export { default as bayroq } from "./bayroq.jpg";
 export { default as tayloqtumaniUsmanov } from "./tayloqtumani.png";
+export { default as statistika } from "./statistika.jpg";

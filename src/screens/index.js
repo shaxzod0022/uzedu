@@ -9,3 +9,4 @@ export { default as ElektronDxx } from "./ElektronDxx";
 export { default as DavlatRamzlari } from "./DavlatRamzlari";
 export { default as Rekvizitlar } from "./Rekvizitlar";
 export { default as Murojatlar } from "./Murojatlar";
+export { default as Statistika } from "./Statistika";
