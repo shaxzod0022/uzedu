@@ -22,7 +22,7 @@ const Hodimlar = ({ initialBrack, brack }) => {
             <img
               className={`w-full border-[10px] ${
                 hover === item.id ? "border-myGreen" : "border-transparent"
-              } transition-all duration-200 object-cover h-72`}
+              } transition-all duration-200 object-cover h-96`}
               src={item.image}
               alt={item.title}
             />

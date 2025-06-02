@@ -4,3 +4,5 @@ export { default as RaxbarlarHaqida } from "./RaxbarlarHaqida";
 export { default as HududiyBoshqarma } from "./HududiyBoshqarma";
 export { default as MarkaziyApparat } from "./MarkaziyApparat";
 export { default as About } from "./About";
+export { default as BoshqarmaTuzilmasi } from "./BoshqarmaTuzilmasi";
+export { default as ElektronDxx } from "./ElektronDxx";

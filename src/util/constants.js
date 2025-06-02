@@ -110,7 +110,7 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Boshqarma tuzilmasi",
-        url: "https://uzedu.uz/page/7",
+        url: "/boshqarma_tuilmasi",
       },
       {
         linkTitle: "Rekvizitlar",
@@ -128,36 +128,24 @@ export const navBottomLinks = [
     links: [
       {
         linkTitle: "Statistika",
-        url: "https://uzedu.uz/page/statistics",
-      },
-      {
-        linkTitle: "Tahliliy ma'lumotlar",
-        url: "https://uzedu.uz/page/tahliliy-malumotlar",
+        url: "/statistics",
       },
       {
         linkTitle: "Ta'limga doir terminlar",
-        url: "https://uzedu.uz/page/terms-education",
+        url: "/talimga-doir-terminlar",
       },
       {
         linkTitle: "Elektron kutubxona",
         url: "https://kitob.uz",
       },
       {
-        linkTitle:
-          "Umumta'lim maktablarining hovli, kirish qismi va koridorlarini bezatish bo'yicha namunaviy tavsiyalar",
-        url: "https://uzedu.uz/page/namunaviy-tavsiyalar",
-      },
-      {
         linkTitle: "'Barkamol avlod' Bolalar maktablari",
-        url: "https://uzedu.uz/page/barkamol_avlod",
+        // url: "https://uzedu.uz/page/barkamol_avlod",
+        url: "/",
       },
       {
         linkTitle: "Imkoniyati cheklanganlarga",
         url: "https://uzedu.uz/page/organicennymi-vozmoznostami",
-      },
-      {
-        linkTitle: "EFL Teacher Recruitment",
-        url: "https://uzedu.uz/page/recruitment",
       },
     ],
   },
@@ -171,11 +159,8 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Elektron davlat xizmatlari reestri",
-        url: "https://uzedu.uz/page/davlat_xizmatlari",
-      },
-      {
-        linkTitle: "“Elektron hukumat” tizimi",
-        url: "https://uzedu.uz/page/elektron_hukumat",
+        // url: "https://uzedu.uz/page/davlat_xizmatlari",
+        url: "/elektron-dxx",
       },
       {
         linkTitle: "Harakatlar strategiyasi va Davlat dasturlari ",
@@ -194,20 +179,12 @@ export const navBottomLinks = [
         url: "https://uzedu.uz/page/ish-reja",
       },
       {
-        linkTitle: "Ochiq majlislar o'tkazish rejalari",
-        url: "https://uzedu.uz/page/ochiq-majlislar-otkazish-rejalari",
-      },
-      {
         linkTitle: "Umumta'lim tashkilotlari faoliyatini tekshirish",
         url: "https://uzedu.uz/page/qaror-va-ijro",
       },
       {
         linkTitle: "Hisobotlar",
         url: "https://uzedu.uz/lists/4",
-      },
-      {
-        linkTitle: "Investitsiya salohiyati",
-        url: "https://uzedu.uz/page/investitsya-salohiyati",
       },
       {
         linkTitle: "Jismoniy va yuridik shaxslarning murojaati bilan ishlash",
@@ -220,7 +197,7 @@ export const navBottomLinks = [
     title: "Axborot xizmati",
     links: [
       {
-        linkTitle: "Vazirlik yangiliklari",
+        linkTitle: "Yangiliklari",
         url: "https://uzedu.uz/news/index",
       },
       {
@@ -236,10 +213,6 @@ export const navBottomLinks = [
         url: "https://uzedu.uz/lists/5",
       },
       {
-        linkTitle: "Logotip va brend qo'llanmasi",
-        url: "https://uzedu.uz/static/brand-info",
-      },
-      {
         linkTitle: "Galereya",
         url: "https://uzedu.uz/gallery",
       },
@@ -248,40 +221,28 @@ export const navBottomLinks = [
         url: "https://uzedu.uz/gallery/video",
       },
       {
-        linkTitle: "Axborot xizmati",
-        url: "https://uzedu.uz/staff/5",
-      },
-      {
         linkTitle: "Matbuot anjumanlari",
-        url: "",
-      },
-      {
-        linkTitle: "Konferensiyalar",
-        url: "https://uzedu.uz/page/matbuot_anjumanlari",
-      },
-      {
-        linkTitle: "Yordam",
-        url: "https://uzedu.uz/lists/6",
+        url: "/",
       },
       {
         linkTitle: "Tanlovlar",
-        url: "https://uzedu.uz/page/help",
+        // url: "https://uzedu.uz/page/help",
+        url: "",
       },
       {
-        linkTitle: "Akkreditatsiya",
-        url: "https://uzedu.uz/lists/7",
-      },
-      {
-        linkTitle: "Vazirlik faoliyatining ochiqligi",
-        url: "https://uzedu.uz/page/openness",
+        linkTitle: "Boshqarma faoliyatining ochiqligi",
+        // url: "https://uzedu.uz/page/openness",
+        url: "/",
       },
       {
         linkTitle: "Infografika",
-        url: "https://uzedu.uz/page/infographics",
+        // url: "https://uzedu.uz/page/infographics",
+        url: "/",
       },
       {
         linkTitle: "Bayonotlar",
-        url: "https://uzedu.uz/lists/8",
+        // url: "https://uzedu.uz/lists/8",
+        url: "/",
       },
     ],
   },

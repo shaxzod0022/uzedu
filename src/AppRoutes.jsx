@@ -3,6 +3,8 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { Footer, ScrollToTop, SocialNetworksBar } from "./components";
 import {
   About,
+  BoshqarmaTuzilmasi,
+  ElektronDxx,
   Home,
   HududiyBoshqarma,
   MarkaziyApparat,
@@ -24,6 +26,8 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/raxbariyat" element={<Raxbariyat />} />
         <Route path="/about" element={<About />} />
+        <Route path="/boshqarma_tuilmasi" element={<BoshqarmaTuzilmasi />} />
+        <Route path="/ekektron-dxx" element={<ElektronDxx />} />
         <Route path="/hodim/:id" element={<RaxbarlarHaqida />} />
         <Route path="/boshqarma-hodimlari" element={<HududiyBoshqarma />} />
         <Route path="/markaziy-aparat" element={<MarkaziyApparat />} />
