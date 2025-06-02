@@ -82,7 +82,7 @@ export const navTopLinks = [
   {
     id: 6,
     title: "Fuqarolar murojati",
-    url: "https://uzedu.uz/uz/static/request",
+    url: "/murojatlar",
   },
 ];
 
@@ -418,8 +418,7 @@ export const footerContentLinks = [
     id: 1,
     icon: <MessageSquare />,
     title: "Fuqarolarning murojaatlari",
-    // link: "https://uzedu.uz/uz/static/request",
-    url: "",
+    url: "/murojatlar",
   },
   {
     id: 2,
@@ -858,6 +857,7 @@ import {
   salimova_gulmira,
   saparova,
   sultanov,
+  tayloqtumaniUsmanov,
   tursunov_abdunavi,
   xojamqulov,
   xursandov_akmal,
@@ -1174,7 +1174,7 @@ export const hodimlar = [
   },
   {
     id: 45,
-    image: usmanov,
+    image: tayloqtumaniUsmanov,
     title: "УСМОНОВ Ўлмас Облоқулович",
     info: "Тойлоқ туман мактабгача ва мактаб таълими бўлими бошлиғи",
   },
@@ -1183,5 +1183,45 @@ export const hodimlar = [
     image: zoitov,
     title: "ЗОИТОВ Жавлон Зокирович",
     info: "Ургут туман мактабгача ва мактаб таълими бўлими бошлиғи",
+  },
+];
+
+import boshliqbu from "../assets/samvilmttbosh.jpg";
+
+export const qabul_qiluvchilar = [
+  {
+    id: 1,
+    image: boshliqbu,
+    title: "Xamdamov Muzaffar Yazdonqulovich",
+    info: "Samarqand viloyati Maktabgacha va maktab ta’limi boshqarmasi boshlig‘i",
+    date: "Juma kuni soat 09:00 dan 11:00 gacha",
+  },
+  {
+    id: 2,
+    image: boshqarma,
+    title: "Nosirov Anvar Xudayberdiyevich",
+    info: "Boshqarma boshlig'ining birinchi o'rinbosari",
+    date: "Payshanba kuni soat 09:00 dan 11:00 gacha",
+  },
+  {
+    id: 3,
+    image: eshankulov,
+    title: "ESHANKULOV SHAXZOD ESHKUVATOVICH",
+    info: "Boshliq o'rinbosari",
+    date: "Seshanba kuni soat 09:00 dan 11:00 gacha",
+  },
+  {
+    id: 4,
+    image: jurayev_zayniddin,
+    title: "JURAYEV ZAYNITDIN TURSUNBOYEVICH",
+    info: "",
+    date: "Chorshanba kuni soat 09:00 dan 11:00 gacha",
+  },
+  {
+    id: 5,
+    image: bobokulov,
+    title: "BOBOQULOV ASRORJON ABROR O‘G‘LI",
+    info: "Boshliq o'rinbosari",
+    date: "Dushanbada kuni soat 09:00 dan 11:00 gacha",
   },
 ];

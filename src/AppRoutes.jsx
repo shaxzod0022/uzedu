@@ -9,6 +9,7 @@ import {
   Home,
   HududiyBoshqarma,
   MarkaziyApparat,
+  Murojatlar,
   Raxbariyat,
   RaxbarlarHaqida,
   Rekvizitlar,
@@ -35,6 +36,7 @@ const AppRoutes = () => {
         <Route path="/hodim/:id" element={<RaxbarlarHaqida />} />
         <Route path="/boshqarma-hodimlari" element={<HududiyBoshqarma />} />
         <Route path="/markaziy-aparat" element={<MarkaziyApparat />} />
+        <Route path="/murojatlar" element={<Murojatlar />} />
       </Routes>
       <Footer />
       <SocialNetworksBar />

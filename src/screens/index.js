@@ -8,3 +8,4 @@ export { default as BoshqarmaTuzilmasi } from "./BoshqarmaTuzilmasi";
 export { default as ElektronDxx } from "./ElektronDxx";
 export { default as DavlatRamzlari } from "./DavlatRamzlari";
 export { default as Rekvizitlar } from "./Rekvizitlar";
+export { default as Murojatlar } from "./Murojatlar";
