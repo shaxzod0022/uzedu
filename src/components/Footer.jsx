@@ -89,14 +89,6 @@ function Footer() {
                   <span>{item.people}</span>
                 </li>
               ))}
-              <div className="flex justify-center sm:justify-end">
-                <button
-                  type="button"
-                  className="p-1 m-4 text-base cursor-pointer rounded-md bg-[#007bff] text-white hover:bg-[#0062cc] hover:text-[#4c4083] duration-200 transition-all"
-                >
-                  Batafsil
-                </button>
-              </div>
             </ul>
           </div>
           {/* 3rd Column */}
