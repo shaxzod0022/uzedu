@@ -13,6 +13,9 @@ const Navbar = ({ newClass }) => {
     <div
       className={`max-w-[1640px] ${newClass} relative mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full ${styles.fBetween}`}
     >
+      <span className="absolute top-0 right-0 text-white">
+        Sayt test rejimida ishlamoqda
+      </span>
       <button
         onClick={() => setHidden((i) => !i)}
         className={`border xl:hidden block p-4 transition-all duration-200 text-white hover:bg-yellow-300 hover:text-myGreen`}
