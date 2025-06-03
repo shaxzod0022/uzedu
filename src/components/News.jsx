@@ -12,7 +12,7 @@ const News = () => {
     >
       {news.map((item, idx) => (
         <a
-          href={item.url}
+          href={`/news/${item.id}`}
           key={idx}
           className={`shadow-lg bg-white w-full sm:w-[45%] xl:w-full max-w-[350px] hover:scale-105 transition-all rounded-md duration-200`}
           onMouseOver={() => setHover(item.url)}

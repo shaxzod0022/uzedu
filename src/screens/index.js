@@ -13,3 +13,5 @@ export { default as Statistika } from "./Statistika";
 export { default as Anjuman } from "./Anjuman";
 export { default as Hujjatlar } from "./Hujjatlar";
 export { default as Terminlar } from "./Terminlar";
+export { default as BarkamolA } from "./BarkamolA";
+export { default as News } from "./News";

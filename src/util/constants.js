@@ -62,16 +62,6 @@ export const navTopLinks = [
     url: "/hujjatlar",
   },
   {
-    id: 3,
-    title: "Loyihalar",
-    url: "https://uzedu.uz/uz/projects/index",
-  },
-  {
-    id: 4,
-    title: "Ko'p beriladigan savollar",
-    url: "https://uzedu.uz/uz/faq",
-  },
-  {
     id: 5,
     title: "Davlat ramzlari",
     url: "/davlat-ramzlari",
@@ -139,7 +129,7 @@ export const navBottomLinks = [
       {
         linkTitle: "'Barkamol avlod' Bolalar maktablari",
         // url: "https://uzedu.uz/page/barkamol_avlod",
-        url: "",
+        url: "/barkamol_avlod",
       },
       {
         linkTitle: "Imkoniyati cheklanganlarga",
@@ -205,7 +195,7 @@ export const navBottomLinks = [
       {
         linkTitle: "Yangiliklari",
         // url: "https://uzedu.uz/news/index",
-        url: "#news",
+        url: "/#news",
       },
       {
         linkTitle: "Press-relizlar",
@@ -336,19 +326,19 @@ export const networkList = [
   {
     id: 3,
     icon: <Facebook />,
-    title: "@sam.uzedu",
+    title: "@samuzedu",
     link: "https://www.facebook.com/SamarqandMMTB",
   },
   {
     id: 4,
     icon: <Send />,
-    title: "@sam.uzedu",
+    title: "@samuzedu",
     link: "https://t.me/samarqandvxtb",
   },
   {
     id: 5,
     icon: <Youtube />,
-    title: "sam.uzedu",
+    title: "samuzedu",
     link: "https://youtube.com/@samarqandmmtb?si=g4gzrVdEdzPY9TEi",
   },
 ];
@@ -867,16 +857,18 @@ import {
 
 export const news = [
   {
+    id: 1,
     img: kunlik90,
-    title: `Bugun tumandagi "Kumushkent" mahallasida joylashgan 32-umumta'lim maktabida tumandagi maktab o‘quvchilari va yoshlar ishtirokida "Dolzarb 90 kunlik" tadbirlari doirasida kitobxonlik, xorijiy til bilimdonlari loyihalari o'tkazildi.`,
+    title: "Dolzarb 90 kunning ilk kuni tadbirlari davom etmoqda",
+    info: `Bugun tumandagi "Kumushkent" mahallasida joylashgan 32-umumta'lim maktabida tumandagi maktab o‘quvchilari va yoshlar ishtirokida "Dolzarb 90 kunlik" tadbirlari doirasida kitobxonlik, xorijiy til bilimdonlari loyihalari o'tkazildi. O‘zbekiston Respublikasi prezidenti tashabbusi bilan “Dolzarb 90 kun” loyihasi yo‘lga qo‘yildi. Loyiha doirasida 1-iyundan 30-avgustgacha maktab o‘quvchilari va uyushmagan yoshlarning bo‘sh vaqtini mazmunli o‘tkazish, ularni sog‘lomlashtirish va har tomonlama rivojlantirish bo‘yicha keng ko‘lamli ishlar olib borilishi belgilab berilgan. Ushbu tashabbus Oqdaryo tumanida start berildi.`,
     date: "",
-    url: "",
   },
   {
+    id: 2,
     img: bolalar,
-    title: `Bolalar ishtirokidagi YTHlarning oldini olish maqsadida Samarqand shahridagi 50-MTTda Samarqand viloyati IIB JXX YHXB xodimlari tomonidan navbatdagi targ’ibot tadbiri olib borildi.`,
+    title: "YTHlarning oldini olish",
+    info: `Bolalar ishtirokidagi YTHlarning oldini olish maqsadida Samarqand shahridagi 50-MTTda Samarqand viloyati IIB JXX YHXB xodimlari tomonidan navbatdagi targ’ibot tadbiri olib borildi.`,
     date: "",
-    url: "https://t.me/samyhxb",
   },
 ];
 

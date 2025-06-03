@@ -4,6 +4,7 @@ import { Footer, ScrollToTop, SocialNetworksBar } from "./components";
 import {
   About,
   Anjuman,
+  BarkamolA,
   BoshqarmaTuzilmasi,
   DavlatRamzlari,
   ElektronDxx,
@@ -12,6 +13,7 @@ import {
   Hujjatlar,
   MarkaziyApparat,
   Murojatlar,
+  News,
   Raxbariyat,
   RaxbarlarHaqida,
   Rekvizitlar,
@@ -45,6 +47,8 @@ const AppRoutes = () => {
         <Route path="/anjuman" element={<Anjuman />} />
         <Route path="/hujjatlar" element={<Hujjatlar />} />
         <Route path="/terminlar" element={<Terminlar />} />
+        <Route path="/barkamol_avlod" element={<BarkamolA />} />
+        <Route path="/news/:id" element={<News />} />
       </Routes>
       <Footer />
       <SocialNetworksBar />
