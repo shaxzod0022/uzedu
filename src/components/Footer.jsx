@@ -76,9 +76,9 @@ function Footer() {
           </div>
           <div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2919.9343036855885!2d66.932172!3d39.65127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDM5JzA0LjYiTiA2NsKwNTUnNTUuOCJF!5e1!3m2!1suz!2s!4v1748932915074!5m2!1suz!2s"
-              width="300"
-              height="250"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794.0409914346076!2d66.9320556572768!3d39.65123895358776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d199190ebb60f%3A0x70fb7ab63fa5910b!2sSamarqand%20viloyati%20Maktabgacha%20va%20maktab%20ta&#39;limi%20boshqarmasi!5e1!3m2!1suz!2sus!4v1748933664717!5m2!1suz!2sus"
+              width="350"
+              height="300"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
