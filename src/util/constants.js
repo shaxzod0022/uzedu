@@ -192,7 +192,7 @@ export const navBottomLinks = [
         url: "",
       },
       {
-        linkTitle: "Jismoniy va yuridik shaxslarning murojaati bilan ishlash",
+        linkTitle: "Jismoniy va yuridik shaxslarning murojati bilan ishlash",
         // url: "https://uzedu.uz/page/grafik",
         url: "",
       },
@@ -285,7 +285,7 @@ export const navBottomLinks = [
       },
       {
         linkTitle:
-          "Xodimlar xatti-harakatiga oid korrupsiyani oldini olish boʻyicha murojaat",
+          "Xodimlar xatti-harakatiga oid korrupsiyani oldini olish boʻyicha murojat",
         // url: "https://uzedu.uz/page/korrupsiyaga-qarshi-kurashish",
         url: "",
       },
@@ -414,7 +414,7 @@ export const footerContentLinks = [
   {
     id: 1,
     icon: <MessageSquare />,
-    title: "Fuqarolarning murojaatlari",
+    title: "Fuqarolarning murojatlari",
     url: "/murojatlar",
   },
   {
@@ -599,7 +599,7 @@ export const directions = [
 export const statisticsAppeals = [
   {
     id: 1,
-    title: "Murojaatlar ko'rib chiqildi",
+    title: "Murojatlar ko'rib chiqildi",
     value: 0,
   },
   {
@@ -619,12 +619,12 @@ export const statisticsAppeals = [
   },
   {
     id: 5,
-    title: "Murojaatlar ko'rib chiqildi",
+    title: "Murojatlar ko'rib chiqildi",
     value: 0,
   },
   {
     id: 6,
-    title: "Murojaatlar ko'rib chiqildi",
+    title: "Murojatlar ko'rib chiqildi",
     value: 0,
   },
   {
@@ -644,7 +644,7 @@ export const statisticsAppeals = [
   },
   {
     id: 10,
-    title: "Murojaatlar ko'rib chiqildi",
+    title: "Murojatlar ko'rib chiqildi",
     value: 0,
   },
 ];
@@ -692,10 +692,10 @@ export const surveyStatistics = [
 export const ContactOptionsData = [
   {
     id: 1,
-    title: "Murojaatlar",
+    title: "Murojatlar",
     img: mainIcon1,
-    disp: "Maktabgacha va maktab ta'limi vazirligiga ariza, taklif yoki shikoyat bilan murojaat qilishingiz mumkin",
-    link: "https://uzedu.uz/uz/static/request",
+    disp: "Maktabgacha va maktab ta'limi vazirligiga ariza, taklif yoki shikoyat bilan murojat qilishingiz mumkin",
+    link: "/murojatlar",
   },
   {
     id: 2,
@@ -709,7 +709,7 @@ export const ContactOptionsData = [
     title: "Qabul grafigi",
     img: mainIcon3,
     disp: "Jismoniy va yuridik shaxslarni qabul qilish jadvali",
-    link: "https://uzedu.uz/uz/staff/reception",
+    link: "/murojatlar",
   },
 ];
 
@@ -1286,5 +1286,75 @@ export const hujjatlar = [
     title:
       "O'zbekiston Respublikasi xalq ta'limi tizimini 2030-yilgacha rivojlantirish konsepsiyasi to'g'risida",
     url: "https://lex.uz/docs/-4312785",
+  },
+];
+
+export const davlat_xizmatlari = [
+  {
+    id: 1,
+    dxNomi: `"Yo'qolgan attestatlar bo'yicha dublikat berish uchun ariza qabul qilish"`,
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "5 ish kuni (qo'shimcha 5 ish kuni)",
+    url: "",
+  },
+  {
+    id: 2,
+    dxNomi:
+      "Xorijiy davlatlarda umumiy o‘rta va o‘rta ta’lim olganlik to‘g‘risida hujjatlarni tan olish uchun elektron ariza yuborish xizmati",
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "3 ish kuni",
+    url: "",
+  },
+  {
+    id: 3,
+    dxNomi: "Eksternat tartibida imtihon olish uchun ariza berish xizmati",
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "2 ish kuni",
+    url: "",
+  },
+  {
+    id: 4,
+    dxNomi:
+      "Bolalarni bir maktabdan boshqa maktabga ko‘chirish uchun ariza yuborish xizmati",
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "5 ish kuni",
+    url: "",
+  },
+  {
+    id: 5,
+    dxNomi: "Chet el fuqarolarining farzandlarini maktabga qabul qilish",
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "3 ish kuni",
+    url: "",
+  },
+  {
+    id: 6,
+    dxNomi:
+      "Bolani davlat maktabgacha ta’lim muassasasiga joylashtirish uchun ariza berish xizmati",
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "",
+    url: "",
+  },
+  {
+    id: 7,
+    dxNomi:
+      "Bolalarni davlat maktabgacha ta’lim muassasasiga qabul qilish navbatini tekshirish",
+    arizachilarToifasi: "Jismoniy shaxs",
+    xizmatShakli: "Elektron",
+    tulovTuriMiqdori: "Bepul",
+    dxKorsatishMuddati: "",
+    url: "",
   },
 ];

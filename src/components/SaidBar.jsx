@@ -5,7 +5,7 @@ const SaidBar = ({ newClass }) => {
   return (
     <div
       className={`${
-        newClass ? "-left-[130%] top-20" : "top-20 left-0"
+        newClass ? "-left-[130%] top-28" : "top-28 left-0"
       } bg-myGreen transition-all duration-200 ease-in-out xl:hidden block absolute  z-50 w-full`}
     >
       <ul

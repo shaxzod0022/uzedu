@@ -72,24 +72,6 @@ function Footer() {
                 </li>
               ))}
             </ul>
-            <br />
-            <br />
-            <ul className="relative md:footer-ul__aft">
-              <h5 className="mb-4 text-xl text-center sm:text-left">
-                Ishonch telefoni reytingi
-              </h5>
-              {hotlineRating.map((item) => (
-                <li
-                  key={item.id}
-                  className="flex flex-col mb-4 text-center sm:text-left"
-                >
-                  <span>
-                    {item.ball} - {item.number}
-                  </span>
-                  <span>{item.people}</span>
-                </li>
-              ))}
-            </ul>
           </div>
           {/* 3rd Column */}
           <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10">
