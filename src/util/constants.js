@@ -1297,7 +1297,7 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "5 ish kuni (qo'shimcha 5 ish kuni)",
-    url: "",
+    url: "https://my.gov.uz/uz/service/477",
   },
   {
     id: 2,
@@ -1307,7 +1307,7 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "3 ish kuni",
-    url: "",
+    url: "https://my.gov.uz/uz/service/290",
   },
   {
     id: 3,
@@ -1316,7 +1316,7 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "2 ish kuni",
-    url: "",
+    url: "https://my.gov.uz/uz/page/external-exam-secondeducation",
   },
   {
     id: 4,
@@ -1326,7 +1326,7 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "5 ish kuni",
-    url: "",
+    url: "https://my.gov.uz/uz/service/660",
   },
   {
     id: 5,
@@ -1335,7 +1335,7 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "3 ish kuni",
-    url: "",
+    url: "https://my.gov.uz/uz/service/665",
   },
   {
     id: 6,
@@ -1345,7 +1345,7 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "",
-    url: "",
+    url: "https://my.gov.uz/uz/service/285",
   },
   {
     id: 7,
@@ -1355,6 +1355,6 @@ export const davlat_xizmatlari = [
     xizmatShakli: "Elektron",
     tulovTuriMiqdori: "Bepul",
     dxKorsatishMuddati: "",
-    url: "",
+    url: "https://my.gov.uz/uz/service/285",
   },
 ];

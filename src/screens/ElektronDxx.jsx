@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../components";
 import { styles } from "../util/styles";
 import { davlat_xizmatlari } from "../util/constants";
+import { dsSertificate } from "../assets/hodimlar2";
 
 const ElektronDxx = () => {
   return (
@@ -37,9 +38,14 @@ const ElektronDxx = () => {
             </thead>
             <tbody>
               {davlat_xizmatlari.map((item) => (
-                <tr key={item.id}>
+                <tr
+                  key={item.id}
+                  className={`${item.id % 2 === 0 && "bg-gray-100"}`}
+                >
                   <td className="border px-4 py-2">{item.id}</td>
-                  <td className="border px-4 py-2 font-semibold">{item.dxNomi}</td>
+                  <td className="border px-4 py-2 font-semibold">
+                    {item.dxNomi}
+                  </td>
                   <td className="border px-4 py-2">
                     {item.arizachilarToifasi}
                   </td>
@@ -50,11 +56,7 @@ const ElektronDxx = () => {
                   </td>
                   <td class="border px-4 py-2 text-center">
                     <a href={item.url}>
-                      <img
-                        src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
-                        alt="link"
-                        class="h-6 w-6 mx-auto"
-                      />
+                      <img src={dsSertificate} alt="link" class="mx-auto" />
                     </a>
                   </td>
                 </tr>

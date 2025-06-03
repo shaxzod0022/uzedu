@@ -7,7 +7,6 @@ import logoSecondary from "../assets/samvillogofull.jpg";
 import {
   networkList,
   vebSiteLegal,
-  hotlineRating,
   footerContentLinks,
 } from "../util/constants";
 import { Send } from "lucide-react";
@@ -33,33 +32,9 @@ function Footer() {
             <h2 className="mb-8 sm:mb-12 text-xl font-thin text-center sm:text-left">
               Samarqand shaxar, X. Obiddinov ko'chasi 1-uy
             </h2>
-            <div>
-              <ul className="text-center sm:text-left">
-                <Link
-                  target="_blank"
-                  to={"https://t.me/sammmtb_bot"}
-                  className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
-                >
-                  <Send />
-                  <span className="text-lg">Murojat uchun</span>
-                </Link>
-                {networkList.map((item) => (
-                  <li key={item.id}>
-                    <Link
-                      to={item.link}
-                      target="_blank"
-                      className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
-                    >
-                      {item.icon}
-                      <span className="text-lg">{item.title}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
           {/* 2nd Column */}
-          <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10 mb-8 sm:mb-0">
+          {/* <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10 mb-8 sm:mb-0">
             <ul className="relative lg:footer-ul__aft text-center sm:text-left">
               {vebSiteLegal.map((item) => (
                 <li key={item.id}>
@@ -72,14 +47,38 @@ function Footer() {
                 </li>
               ))}
             </ul>
+          </div> */}
+          <div>
+            <ul className="text-center sm:text-left">
+              <Link
+                target="_blank"
+                to={"https://t.me/sammmtb_bot"}
+                className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
+              >
+                <Send />
+                <span className="text-lg">Murojat uchun</span>
+              </Link>
+              {networkList.map((item) => (
+                <li key={item.id}>
+                  <Link
+                    to={item.link}
+                    target="_blank"
+                    className="flex items-center justify-center sm:justify-start gap-5 py-3 text-2xl hover:text-[#f0f220]"
+                  >
+                    {item.icon}
+                    <span className="text-lg">{item.title}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
           {/* 3rd Column */}
-          <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10">
+          <div className="w-full sm:w-[324px] px-10">
             <ul className="relative">
               {footerContentLinks.map((item) => (
                 <li key={item.id}>
                   <Link
-                    to={item.link}
+                    to={item.url}
                     className="relative flex items-center gap-3 py-3 text-xl font-bold hover:text-[#f0f220] justify-center sm:justify-start"
                   >
                     {item.icon}

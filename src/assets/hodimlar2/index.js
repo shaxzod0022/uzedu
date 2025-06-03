@@ -33,3 +33,4 @@ export { default as tayloqtumaniUsmanov } from "./tayloqtumani.png";
 export { default as statistika } from "./statistika.jpg";
 export { default as kunlik90 } from "./90-kunlik.jpg";
 export { default as bolalar } from "./bolalar.jpg";
+export { default as dsSertificate } from "./dxxsertificate.png";
