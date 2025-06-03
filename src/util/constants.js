@@ -1,13 +1,10 @@
 import {
   Phone,
-  Mail,
   Facebook,
   Send,
-  Instagram,
   Youtube,
   MessageSquare,
   Database,
-  LocateFixed,
 } from "lucide-react";
 
 // import image
@@ -62,7 +59,7 @@ export const navTopLinks = [
   {
     id: 2,
     title: "Hujjatlar",
-    url: "https://uzedu.uz/uz/documents/categories",
+    url: "/hujjatlar",
   },
   {
     id: 3,
@@ -133,7 +130,7 @@ export const navBottomLinks = [
       },
       {
         linkTitle: "Ta'limga doir terminlar",
-        url: "/talimga-doir-terminlar",
+        url: "/terminlar",
       },
       {
         linkTitle: "Elektron kutubxona",
@@ -208,7 +205,7 @@ export const navBottomLinks = [
       {
         linkTitle: "Yangiliklari",
         // url: "https://uzedu.uz/news/index",
-        url: "",
+        url: "#news",
       },
       {
         linkTitle: "Press-relizlar",
@@ -1181,5 +1178,113 @@ export const qabul_qiluvchilar = [
     title: "BOBOQULOV ASRORJON ABROR O‘G‘LI",
     info: "Boshliq o'rinbosari",
     date: "Dushanbada kuni soat 09:00 dan 11:00 gacha",
+  },
+];
+
+export const hujjatlar = [
+  {
+    id: 1,
+    title: "O'zbekiston Respublikasi Qonuni",
+    url: "https://lex.uz/uz/pdfs/6416492",
+  },
+  {
+    id: 2,
+    title: "Pedagogik maqom to'g'risida",
+    url: "https://lex.uz/docs/-6786401",
+  },
+  {
+    id: 3,
+    title: "Talimga oid qonunlar",
+    url: "https://lex.uz/uz/docs/-7093724",
+  },
+  {
+    id: 4,
+    title:
+      "O'zbekiston Respublikasining ayrim qonun hujjatlariga qo'shimcha va o'zgartirishlar kiritish to'g'risida",
+    url: "https://lex.uz/docs/-6407878",
+  },
+  {
+    id: 5,
+    title: "Bola huquqlari to'g'risida",
+    url: "https://lex.uz/docs/-4631276",
+  },
+  {
+    id: 6,
+    title:
+      "Jinoyat, jinoyat-protsessual kodekslari, ma'muriy javobgarlik to'g'risid=a",
+    url: "https://lex.uz/docs/-5286348",
+  },
+  {
+    id: 7,
+    title: "Nogironligi bo'lgan shaxslarning huquqlari to'g'risida",
+    url: "https://lex.uz/docs/5049549",
+  },
+  {
+    id: 8,
+    title: "Axborot-kutibxona to'g'risida",
+    url: "https://lex.uz/docs/-1769736",
+  },
+  {
+    id: 9,
+    title: "Ta'lim to'g'risida",
+    url: "https://lex.uz/docs/-5013007",
+  },
+  {
+    id: 10,
+    title:
+      "O'zbekiston Respublikasi Prezidentining va O'zbekiston Respublikasi hukumatining ayrim hujjatlariga o'zgartirish va qo'shimcha kiritish to'g'risida",
+    url: "https://lex.uz/docs/5382389",
+  },
+  {
+    id: 11,
+    title: "Davlat xaridlari to'g'risida",
+    url: "https://www.lex.uz/docs/-3648300",
+  },
+  {
+    id: 12,
+    title: "Huquqbuzarlik prafilaktikasi to'g'risida",
+    url: "https://lex.uz/docs/-2387357",
+  },
+  {
+    id: 13,
+    title: `"Kelajak bunyodkori" medalini ta'sis etish to'g'risida`,
+    url: "https://lex.uz/docs/-3479565",
+  },
+  {
+    id: 14,
+    title: "Axborot qidiruv tizimi",
+    url: "https://nrm.uz/",
+  },
+  {
+    id: 15,
+    title:
+      "Huquqiy axborotni tarqatish va undan foydalanishni ta'minlash to'g'risida",
+    url: "https://lex.uz/docs/-3329163",
+  },
+  {
+    id: 16,
+    title: "Yoshlarga oid davlat siyosati to'g'risida",
+    url: "https://www.lex.uz/acts/3026246",
+  },
+  {
+    id: 17,
+    title: "Kadrlar tayyorlash milliy dasturi to'g'risida",
+    url: "https://lex.uz/docs/-196944",
+  },
+  {
+    id: 18,
+    title: "Vasiylik va homiylik to'g'risida",
+    url: "https://lex.uz/docs/-2307826",
+  },
+  {
+    id: 19,
+    title: "O'qituvchi va murabbiylar kunini belgilash to'g'risida",
+    url: "https://lex.uz/docs/-57013",
+  },
+  {
+    id: 20,
+    title:
+      "O'zbekiston Respublikasi xalq ta'limi tizimini 2030-yilgacha rivojlantirish konsepsiyasi to'g'risida",
+    url: "https://lex.uz/docs/-4312785",
   },
 ];

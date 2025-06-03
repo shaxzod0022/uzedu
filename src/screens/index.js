@@ -11,3 +11,5 @@ export { default as Rekvizitlar } from "./Rekvizitlar";
 export { default as Murojatlar } from "./Murojatlar";
 export { default as Statistika } from "./Statistika";
 export { default as Anjuman } from "./Anjuman";
+export { default as Hujjatlar } from "./Hujjatlar";
+export { default as Terminlar } from "./Terminlar";

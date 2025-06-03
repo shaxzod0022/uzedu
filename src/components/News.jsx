@@ -7,6 +7,7 @@ const News = () => {
   const [hover, setHover] = useState(null);
   return (
     <div
+      id="news"
       className={`${styles.fBetween} gap-7 w-full max-w-[1640px] mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%]`}
     >
       {news.map((item, idx) => (

@@ -9,12 +9,14 @@ import {
   ElektronDxx,
   Home,
   HududiyBoshqarma,
+  Hujjatlar,
   MarkaziyApparat,
   Murojatlar,
   Raxbariyat,
   RaxbarlarHaqida,
   Rekvizitlar,
   Statistika,
+  Terminlar,
 } from "./screens";
 
 const AppRoutes = () => {
@@ -41,6 +43,8 @@ const AppRoutes = () => {
         <Route path="/murojatlar" element={<Murojatlar />} />
         <Route path="/statistiks" element={<Statistika />} />
         <Route path="/anjuman" element={<Anjuman />} />
+        <Route path="/hujjatlar" element={<Hujjatlar />} />
+        <Route path="/terminlar" element={<Terminlar />} />
       </Routes>
       <Footer />
       <SocialNetworksBar />
