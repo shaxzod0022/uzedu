@@ -36,11 +36,6 @@ const Home = () => {
         />
         {/* contact optins */}
         <ContactOptions data={ContactOptionsData} />
-        {/* so'rovlar statistikasi */}
-        <SwiperStatistika
-          data={surveyStatistics}
-          title="So'rovlarni ko'rib chiqish statistikasi"
-        />
         <UsefulLinks />
       </div>
     </div>
