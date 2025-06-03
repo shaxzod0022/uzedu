@@ -34,20 +34,6 @@ function Footer() {
             </h2>
           </div>
           {/* 2nd Column */}
-          {/* <div className="w-full sm:w-[324px] py-8 sm:py-12 px-10 mb-8 sm:mb-0">
-            <ul className="relative lg:footer-ul__aft text-center sm:text-left">
-              {vebSiteLegal.map((item) => (
-                <li key={item.id}>
-                  <Link
-                    to={item.link}
-                    className="py-4 font-bold hover:text-[#f0f220] legal-link"
-                  >
-                    {item.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div> */}
           <div>
             <ul className="text-center sm:text-left">
               <Link
@@ -88,33 +74,16 @@ function Footer() {
               ))}
             </ul>
           </div>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2919.9343036855885!2d66.932172!3d39.65127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDM5JzA0LjYiTiA2NsKwNTUnNTUuOCJF!5e1!3m2!1suz!2s!4v1748932915074!5m2!1suz!2s"
+              width="300"
+              height="250"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
-        <div className="relative z-20 pt-12 max-w-[960px] mx-auto text-center">
-          <a
-            href="https://creativecommons.org/licenses/by/4.0/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://i.creativecommons.org/l/by/4.0/80x15.png"
-              alt="Creative Commons License"
-              className="inline-block"
-            />
-          </a>
-          <br />
-          <span>
-            Saytdagi barcha materiallardan quyidagi lisenziya bo‘yicha
-            foydalanish mumkin:
-          </span>
-          <Link
-            to="https://creativecommons.org/licenses/by/4.0/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-1 transition-colors hover:text-primary"
-          >
-            Creative Commons Attribution 4.0 International
-          </Link>
-        </div>
+        <div className="relative z-20 pt-12 max-w-[960px] mx-auto text-center"></div>
       </footer>
     </>
   );

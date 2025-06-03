@@ -653,7 +653,7 @@ export const surveyStatistics = [
   },
   {
     id: 3,
-    title: "Kelib tushgan so'rovlar soni (2024-yil 3-chorak)",
+    title: "Kelib tushgan so'rovlar soni (2025-yil)",
     value: 0,
   },
   {
@@ -668,7 +668,7 @@ export const surveyStatistics = [
   },
   {
     id: 6,
-    title: "Kelib tushgan so'rovlar soni (2024-yil 3-chorak)",
+    title: "Kelib tushgan so'rovlar soni (2025-yil)",
     value: 0,
   },
   {
@@ -684,15 +684,8 @@ export const ContactOptionsData = [
     id: 1,
     title: "Murojatlar",
     img: mainIcon1,
-    disp: "Maktabgacha va maktab ta'limi vazirligiga ariza, taklif yoki shikoyat bilan murojat qilishingiz mumkin",
+    disp: "Maktabgacha va maktab ta'limi boshqarmasiga ariza, taklif yoki shikoyat bilan murojat qilishingiz mumkin",
     link: "/murojatlar",
-  },
-  {
-    id: 2,
-    title: "G'oya yuborish",
-    img: mainIcon2,
-    disp: "Maktabgacha va maktab ta'limi tizimini rivojlantirish uchun g'oya yoki taklif yuborishingiz mumkin",
-    link: "https://idea.uzedu.uz/uz",
   },
   {
     id: 3,
