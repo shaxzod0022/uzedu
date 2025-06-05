@@ -15,3 +15,4 @@ export { default as Hujjatlar } from "./Hujjatlar";
 export { default as Terminlar } from "./Terminlar";
 export { default as BarkamolA } from "./BarkamolA";
 export { default as News } from "./News";
+export { default as NotFound } from "./NotFound";

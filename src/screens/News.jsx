@@ -9,7 +9,7 @@ const News = () => {
   const data = news.find((i) => i.id === Number(newsId));
 
   return (
-    <div>
+    <>
       <Navbar newClass={"bg-myGreen w-full lg:!px-36 sm:w-full"} />
       <div className="mx-auto p-4 sm:px-6 lg:px-8 xxl:w-full sm:w-[80%] w-full">
         <div className="mb-5">
@@ -24,7 +24,7 @@ const News = () => {
           <p className="text-lg">{data.info}</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -118,8 +118,8 @@ function MurojatYuborish() {
         value={value[name]}
         onChange={handleInputChange}
         className={`px-4 py-3 text-base border ${
-          errorValue[name] ? "border-red-500" : "border-[#151d41]"
-        } text-[#495057] bg-white rounded w-full focus:outline-[#28a745]`}
+          errorValue[name] ? "border-red-500" : "border-myGreen"
+        } text-[#495057] bg-white rounded w-full focus:outline-myGreen`}
         placeholder={placeholder}
         {...extraProps}
       />
@@ -155,44 +155,51 @@ function MurojatYuborish() {
   );
 
   return (
-    <div className="pt-7 max-w-[700px] w-full mx-auto bg-white">
-      <div className="w-full">
-        <form
-          onSubmit={handleSubmit}
-          className="flex flex-col flex-wrap items-center w-full md:flex-row py-7 px-3.5"
-        >
-          <div className="w-full lg:w-1/2 lg:pr-2">
-            {renderInput("text", "ism", "Ism")}
-            {renderInput("text", "familiya", "Familiya")}
-            {renderInput("text", "otasiningIsmi", "Otasining ismi")}
-          </div>
-          <div className="w-full lg:w-1/2 lg:pl-2">
-            {renderInput("email", "email", "Email")}
-            {renderInput("tel", "phoneNumber", "Telefon raqam", {
-              maxLength: "17",
-            })}
-          </div>
-          <div className="relative w-full mb-7">
-            <textarea
-              name="taklif"
-              rows={5}
-              value={value.taklif}
-              onChange={handleInputChange}
-              placeholder="Taklif"
-              className={`p-4 text-base border ${
-                errorValue.taklif ? "border-red-500" : "border-[#151d41]"
-              } text-[#495057] bg-white rounded w-full focus:outline-[#28a745]`}
-            ></textarea>
-            {errorValue.taklif && errorLength("Taklif")}
-          </div>
+    <div className="pt-10 px-4 max-w-3xl mx-auto bg-white rounded-2xl shadow-md">
+      <form
+        onSubmit={handleSubmit}
+        className="grid grid-cols-1 md:grid-cols-2 gap-5 p-6"
+      >
+        {/* Chap ustun */}
+        <div className="flex flex-col gap-4">
+          {renderInput("text", "ism", "Ism")}
+          {renderInput("text", "familiya", "Familiya")}
+          {renderInput("text", "otasiningIsmi", "Otasining ismi")}
+        </div>
+
+        {/* O‘ng ustun */}
+        <div className="flex flex-col gap-4">
+          {renderInput("email", "email", "Email")}
+          {renderInput("tel", "phoneNumber", "Telefon raqam", {
+            maxLength: "17",
+          })}
+        </div>
+
+        {/* Taklif */}
+        <div className="md:col-span-2">
+          <textarea
+            name="taklif"
+            rows={5}
+            value={value.taklif}
+            onChange={handleInputChange}
+            placeholder="Taklif"
+            className={`w-full p-4 text-base rounded-lg border ${
+              errorValue.taklif ? "border-red-500" : "border-blue-300"
+            } focus:outline-none focus:ring-2 focus:ring-blue-500`}
+          ></textarea>
+          {errorValue.taklif && errorLength("Taklif")}
+        </div>
+
+        {/* Yuborish tugmasi */}
+        <div className="md:col-span-2 text-center mt-4">
           <button
             type="submit"
-            className="text-lg text-white bg-myGreen py-2.5 px-10 rounded-md mx-auto hover:bg-primary hover:text-black transition-all ease-linear duration-200"
+            className="bg-myGreen text-white text-base font-medium py-2.5 px-8 rounded-md hover:bg-blue-700 transition duration-200"
           >
             Yuborish
           </button>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   );
 }

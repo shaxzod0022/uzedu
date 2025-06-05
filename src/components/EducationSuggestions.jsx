@@ -120,7 +120,7 @@ function EducationSuggestions() {
         onChange={handleInputChange}
         className={`px-4 py-3 text-base border ${
           errorValue[name] ? "border-red-500" : "border-[#151d41]"
-        } text-[#495057] bg-white rounded w-full focus:outline-[#28a745]`}
+        } text-[#495057] bg-white rounded w-full focus:outline-myGreen`}
         placeholder={placeholder}
         {...extraProps}
       />
@@ -142,7 +142,7 @@ function EducationSuggestions() {
         onChange={handleInputChange}
         className={`px-3 py-4 text-base border ${
           errorValue[name] ? "border-red-500" : "border-[#151d41]"
-        } text-[#495057] bg-white rounded w-full focus:outline-[#28a745]`}
+        } text-[#495057] bg-white rounded w-full focus:outline-myGreen`}
       >
         <option value="">{placeholder}</option>
         {options.map((option) => (
@@ -211,13 +211,13 @@ function EducationSuggestions() {
               placeholder="Murojaat va takliflar"
               className={`p-4 text-base border ${
                 errorValue.suggestions ? "border-red-500" : "border-[#151d41]"
-              } text-[#495057] bg-white rounded w-full focus:outline-[#28a745]`}
+              } text-[#495057] bg-white rounded w-full focus:outline-myGreen`}
             ></textarea>
             {errorValue.suggestions && errorLength("Murojaat va takliflar")}
           </div>
           <button
             type="submit"
-            className="text-lg text-white bg-myGreen py-2.5 px-10 rounded-md mx-auto hover:bg-primary hover:text-black transition-all ease-linear duration-200"
+            className="text-lg text-white bg-myGreen py-2.5 px-10 rounded-md mx-auto hover:bg-blue-700 transition-all ease-linear duration-200"
           >
             Yuborish
           </button>

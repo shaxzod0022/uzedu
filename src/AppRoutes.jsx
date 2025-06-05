@@ -14,6 +14,7 @@ import {
   MarkaziyApparat,
   Murojatlar,
   News,
+  NotFound,
   Raxbariyat,
   RaxbarlarHaqida,
   Rekvizitlar,
@@ -49,6 +50,7 @@ const AppRoutes = () => {
         <Route path="/terminlar" element={<Terminlar />} />
         <Route path="/barkamol_avlod" element={<BarkamolA />} />
         <Route path="/news/:id" element={<News />} />
+        <Route path="/not_found" element={<NotFound />} />
       </Routes>
       <Footer />
       <SocialNetworksBar />
