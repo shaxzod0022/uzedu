@@ -1,9 +1,16 @@
-import React from "react";
-import { qabul_qiluvchilar } from "../util/constants";
+import React, { useState } from "react";
+import { murojatlarBtn, qabul_qiluvchilar } from "../util/constants";
 import { styles } from "../util/styles";
-import { Navbar } from "../components";
+import {
+  ElektronMurojat,
+  HuquqiyAsos,
+  KuribChiqish,
+  Navbar,
+  QabulQiluvchilar,
+} from "../components";
 
 const Murojatlar = () => {
+  const [activeBtn, setActiveBtn] = useState(1);
   return (
     <>
       <Navbar newClass={"bg-myGreen w-full lg:!px-36 sm:w-full"} />
@@ -12,28 +19,28 @@ const Murojatlar = () => {
           <h2 className={`${styles.heading2}`}>Fuqarolarning murojatlari</h2>
           <p className="bg-yellow-300 w-[80px] h-[5px]"></p>
         </div>
-        <div className={`${styles.fCol} gap-8`}>
-          {qabul_qiluvchilar.map((item) => (
-            <div key={item.id} className={`${styles.fBetween} gap-5 w-full`}>
-              <div className={`${styles.fBetween} gap-3 w-[40%]`}>
-                <div className="w-[30%]">
-                  <img
-                    className="w-full h-44 object-cover"
-                    src={item.image}
-                    alt={item.title}
-                  />
-                </div>
-                <div className="w-[47%]">
-                  <h2 className={`${styles.heading2} !capitalize`}>
-                    {item.title}
-                  </h2>
-                  <p className="text-xl font-extralight">{item.info}</p>
-                </div>
-              </div>
-              <p className="text-xl font-extralight">{item.date}</p>
-            </div>
+        <div className={`${styles.fBetween} mb-10 gap-2`}>
+          {murojatlarBtn.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => setActiveBtn(item.id)}
+              className={`shadow-md hover:scale-105 transition-all duration-200 py-3 px-8 ${
+                activeBtn === item.id ? "bg-yellow-300" : "bg-myGreen"
+              }  rounded-lg font-semibold text-lg text-white md:w-[23%] sm:w-[47%] w-full active:scale-95`}
+            >
+              {item.title}
+            </button>
           ))}
         </div>
+        {activeBtn === 1 ? (
+          <QabulQiluvchilar />
+        ) : activeBtn === 2 ? (
+          <KuribChiqish />
+        ) : activeBtn === 3 ? (
+          <ElektronMurojat />
+        ) : (
+          <HuquqiyAsos />
+        )}
       </div>
     </>
   );

@@ -14,3 +14,8 @@ export { default as UsefulLinks } from "./UsefulLinks";
 export { default as News } from "./News";
 export { default as Boshliq } from "./Boshliq";
 export { default as Hodimlar } from "./Hodimlar";
+export { default as QabulQiluvchilar } from "./QabulQiluvchilar";
+export { default as KuribChiqish } from "./KuribChiqish";
+export { default as ElektronMurojat } from "./ElektronMurojat";
+export { default as HuquqiyAsos } from "./HuquqiyAsos";
+export { default as MurojatYuborish } from "./MurojatYuborish";

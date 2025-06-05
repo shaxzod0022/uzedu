@@ -1343,3 +1343,22 @@ export const davlat_xizmatlari = [
     url: "https://my.gov.uz/uz/service/285",
   },
 ];
+
+export const murojatlarBtn = [
+  {
+    id: 1,
+    title: "Shaxsiy qabul qilish",
+  },
+  {
+    id: 2,
+    title: "Ko'rib chiqish tartibi",
+  },
+  {
+    id: 3,
+    title: "Elektron murojat shakli",
+  },
+  {
+    id: 4,
+    title: "Huquqiy asos",
+  },
+];
